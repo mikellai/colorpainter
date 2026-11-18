@@ -1,0 +1,155 @@
+{
+  "categories": [
+    { "id": "animals",   "name": "動物",     "emoji": "🐱" },
+    { "id": "dinosaurs", "name": "恐龍",     "emoji": "🦖" },
+    { "id": "ocean",     "name": "海洋生物", "emoji": "🐠" },
+    { "id": "vehicles",  "name": "交通工具", "emoji": "🚗" },
+    { "id": "fairytale", "name": "童話角色", "emoji": "🧚" },
+    { "id": "holidays",  "name": "節日主題", "emoji": "🎂" }
+  ],
+  "drawings": [
+    {
+      "id": "cat",
+      "name": "小貓咪",
+      "category": "animals",
+      "thumbnail": "drawings/animals/cat.svg",
+      "lineArt": "drawings/animals/cat.svg",
+      "difficulty": "easy",
+      "tags": ["貓", "喵", "寵物"],
+      "popular": true,
+      "addedAt": "2026-10-01"
+    },
+    {
+      "id": "pig",
+      "name": "胖胖小豬",
+      "category": "animals",
+      "thumbnail": "drawings/animals/pig.svg",
+      "lineArt": "drawings/animals/pig.svg",
+      "difficulty": "medium",
+      "tags": ["豬", "農場"],
+      "popular": false,
+      "addedAt": "2026-11-10"
+    },
+    {
+      "id": "trex",
+      "name": "小暴龍",
+      "category": "dinosaurs",
+      "thumbnail": "drawings/dinosaurs/trex.svg",
+      "lineArt": "drawings/dinosaurs/trex.svg",
+      "difficulty": "medium",
+      "tags": ["暴龍", "恐龍"],
+      "popular": true,
+      "addedAt": "2026-10-03"
+    },
+    {
+      "id": "brontosaurus",
+      "name": "長脖子恐龍",
+      "category": "dinosaurs",
+      "thumbnail": "drawings/dinosaurs/brontosaurus.svg",
+      "lineArt": "drawings/dinosaurs/brontosaurus.svg",
+      "difficulty": "easy",
+      "tags": ["雷龍", "長頸龍", "恐龍"],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "fish",
+      "name": "快樂小魚",
+      "category": "ocean",
+      "thumbnail": "drawings/ocean/fish.svg",
+      "lineArt": "drawings/ocean/fish.svg",
+      "difficulty": "easy",
+      "tags": ["魚", "海", "泡泡"],
+      "popular": true,
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "octopus",
+      "name": "章魚寶寶",
+      "category": "ocean",
+      "thumbnail": "drawings/ocean/octopus.svg",
+      "lineArt": "drawings/ocean/octopus.svg",
+      "difficulty": "medium",
+      "tags": ["章魚", "海"],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "car",
+      "name": "嘟嘟小汽車",
+      "category": "vehicles",
+      "thumbnail": "drawings/vehicles/car.svg",
+      "lineArt": "drawings/vehicles/car.svg",
+      "difficulty": "easy",
+      "tags": ["車", "汽車"],
+      "popular": true,
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "rocket",
+      "name": "太空火箭",
+      "category": "vehicles",
+      "thumbnail": "drawings/vehicles/rocket.svg",
+      "lineArt": "drawings/vehicles/rocket.svg",
+      "difficulty": "medium",
+      "tags": ["火箭", "太空", "星星"],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "princess",
+      "name": "星星小公主",
+      "category": "fairytale",
+      "thumbnail": "drawings/fairytale/princess.svg",
+      "lineArt": "drawings/fairytale/princess.svg",
+      "difficulty": "hard",
+      "tags": ["公主", "皇冠"],
+      "popular": true,
+      "addedAt": "2026-10-09"
+    },
+    {
+      "id": "unicorn",
+      "name": "彩虹獨角獸",
+      "category": "fairytale",
+      "thumbnail": "drawings/fairytale/unicorn.svg",
+      "lineArt": "drawings/fairytale/unicorn.svg",
+      "difficulty": "hard",
+      "tags": ["獨角獸", "馬", "愛心"],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "birthday-cake",
+      "name": "生日蛋糕",
+      "category": "holidays",
+      "thumbnail": "drawings/holidays/birthday-cake.svg",
+      "lineArt": "drawings/holidays/birthday-cake.svg",
+      "difficulty": "medium",
+      "tags": ["生日", "蛋糕", "氣球"],
+      "popular": true,
+      "addedAt": "2026-10-11"
+    },
+    {
+      "id": "christmas-tree",
+      "name": "聖誕樹",
+      "category": "holidays",
+      "thumbnail": "drawings/holidays/christmas-tree.svg",
+      "lineArt": "drawings/holidays/christmas-tree.svg",
+      "difficulty": "hard",
+      "tags": ["聖誕節", "禮物", "樹"],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "pumpkin",
+      "name": "南瓜燈",
+      "category": "holidays",
+      "thumbnail": "drawings/holidays/pumpkin.svg",
+      "lineArt": "drawings/holidays/pumpkin.svg",
+      "difficulty": "easy",
+      "tags": ["萬聖節", "南瓜"],
+      "popular": false,
+      "addedAt": "2026-10-28"
+    }
+  ]
+}

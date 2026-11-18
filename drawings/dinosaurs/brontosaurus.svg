@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<defs><clipPath id="brontobody"><path d="M260 540 A170 110 0 1 0 600 540 A170 110 0 1 0 260 540 Z"/></clipPath></defs>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M560 560 C660 560 730 600 765 655 C700 645 640 625 560 625 Z"/>
+<rect x="300" y="560" width="62" height="175" rx="22"/>
+<rect x="520" y="560" width="62" height="175" rx="22"/>
+<path d="M300 505 C270 405 250 285 258 195 L332 195 C332 285 352 385 385 475 Z"/>
+<path d="M260 540 A170 110 0 1 0 600 540 A170 110 0 1 0 260 540 Z"/><g clip-path="url(#brontobody)"><circle cx="400" cy="495" r="26"/><circle cx="480" cy="535" r="20"/><circle cx="540" cy="490" r="16"/><circle cx="365" cy="575" r="18"/></g><path d="M260 540 A170 110 0 1 0 600 540 A170 110 0 1 0 260 540 Z" fill="none"/>
+<rect x="360" y="575" width="62" height="165" rx="22"/>
+<rect x="460" y="575" width="62" height="165" rx="22"/>
+<path d="M360 712 L422 712 M460 712 L522 712 M300 707 L362 707 M520 707 L582 707" fill="none"/>
+<ellipse cx="295" cy="172" rx="85" ry="52"/>
+<circle cx="272" cy="158" r="11" fill="#222"/><circle cx="268.1" cy="154.2" r="3.5" fill="#fff" stroke="none"/>
+<path d="M228 195 Q255 210 285 198" fill="none"/>
+<circle cx="320" cy="188" r="14"/>
+<path d="M640.0 160.0 L650.6 185.4 L678.0 187.6 L657.1 205.6 L663.5 232.4 L640.0 218.0 L616.5 232.4 L622.9 205.6 L602.0 187.6 L629.4 185.4 Z"/><path d="M140.0 392.0 L147.4 409.8 L166.6 411.3 L152.0 423.9 L156.5 442.7 L140.0 432.6 L123.5 442.7 L128.0 423.9 L113.4 411.3 L132.6 409.8 Z"/>
+</g>
+</svg>
