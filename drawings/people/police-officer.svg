@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+
+<g transform="translate(0 42)"><ellipse cx="255" cy="272" rx="40" ry="72"/></g>
+<rect x="340" y="590" width="52" height="110" rx="20"/>
+<rect x="408" y="590" width="52" height="110" rx="20"/>
+<ellipse cx="340" cy="708" rx="46" ry="24"/>
+<ellipse cx="460" cy="708" rx="46" ry="24"/>
+<rect x="340" y="560" width="120" height="60" rx="12"/>
+<path d="M314 590 Q308 470 334 412 Q400 378 466 412 Q492 470 486 590 Z"/>
+<rect x="316" y="548" width="168" height="38" rx="8"/>
+<path d="M336 412 Q400 378 464 412 L432 440 L400 418 L368 440 Z"/>
+<path d="M390 418 L410 418 L416 520 L400 538 L384 520 Z"/>
+<path d="M344 470 L366 462 L388 470 L386 498 Q366 516 346 498 Z"/>
+<rect x="420" y="470" width="46" height="44" rx="6"/>
+<rect x="-24" y="-24" width="48" height="190.2" rx="24" transform="translate(338 433) rotate(15.5)"/>
+<rect x="-24" y="-24" width="48" height="185.3" rx="24" transform="translate(462 433) rotate(-124.6)"/>
+<rect x="-24" y="-24" width="48" height="158.5" rx="24" transform="translate(575 355) rotate(154.8)"/>
+<circle cx="298" cy="572" r="27"/>
+<g transform="translate(0 42)"><circle cx="400" cy="245" r="120"/>
+<path d="M275 265 C272 77 528 77 525 265 Q496 209 442 191 Q364 179 316 233 Q298 250 275 265 Z"/>
+<circle cx="356.8" cy="273" r="12.6" fill="#222"/><circle cx="352.4" cy="268.6" r="4" fill="#fff" stroke="none"/><circle cx="443.2" cy="273" r="12.6" fill="#222"/><circle cx="438.8" cy="268.6" r="4" fill="#fff" stroke="none"/><path d="M373.6 309 Q400 337.8 426.4 309" fill="none"/>
+<path d="M290 178 L262 112 Q400 62 538 112 L510 178 Z"/>
+<rect x="286" y="165" width="228" height="38" rx="8"/>
+<path d="M300 198 L500 198 Q470 232 400 232 Q330 232 300 198 Z"/>
+<path d="M400 102 L406.9 118.5 L424.7 120 L411.1 131.6 L415.3 149 L400 139.7 L384.7 149 L388.9 131.6 L375.3 120 L393.1 118.5 Z"/></g>
+<circle cx="525" cy="250" r="27"/>
+
+</g>
+</svg>

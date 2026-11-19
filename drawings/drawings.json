@@ -1,155 +1,2483 @@
 {
   "categories": [
-    { "id": "animals",   "name": "動物",     "emoji": "🐱" },
-    { "id": "dinosaurs", "name": "恐龍",     "emoji": "🦖" },
-    { "id": "ocean",     "name": "海洋生物", "emoji": "🐠" },
-    { "id": "vehicles",  "name": "交通工具", "emoji": "🚗" },
-    { "id": "fairytale", "name": "童話角色", "emoji": "🧚" },
-    { "id": "holidays",  "name": "節日主題", "emoji": "🎂" }
+    {
+      "id": "animals",
+      "name": "動物",
+      "emoji": "🐶"
+    },
+    {
+      "id": "plants",
+      "name": "植物",
+      "emoji": "🌻"
+    },
+    {
+      "id": "scenery",
+      "name": "自然風景",
+      "emoji": "🏞️"
+    },
+    {
+      "id": "stories",
+      "name": "故事",
+      "emoji": "📖"
+    },
+    {
+      "id": "buildings",
+      "name": "建築",
+      "emoji": "🏰"
+    },
+    {
+      "id": "furniture",
+      "name": "家具",
+      "emoji": "🛋️"
+    },
+    {
+      "id": "food",
+      "name": "食物",
+      "emoji": "🍎"
+    },
+    {
+      "id": "people",
+      "name": "人物",
+      "emoji": "🧑"
+    }
   ],
   "drawings": [
     {
+      "id": "mouse",
+      "name": "老鼠",
+      "category": "animals",
+      "thumbnail": "drawings/animals/mouse.svg",
+      "lineArt": "drawings/animals/mouse.svg",
+      "difficulty": "easy",
+      "tags": [
+        "老鼠",
+        "鼠"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "water-buffalo",
+      "name": "水牛",
+      "category": "animals",
+      "thumbnail": "drawings/animals/water-buffalo.svg",
+      "lineArt": "drawings/animals/water-buffalo.svg",
+      "difficulty": "easy",
+      "tags": [
+        "水牛",
+        "牛",
+        "農場"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "cow",
+      "name": "乳牛",
+      "category": "animals",
+      "thumbnail": "drawings/animals/cow.svg",
+      "lineArt": "drawings/animals/cow.svg",
+      "difficulty": "medium",
+      "tags": [
+        "乳牛",
+        "牛",
+        "農場",
+        "牛奶"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "tiger",
+      "name": "老虎",
+      "category": "animals",
+      "thumbnail": "drawings/animals/tiger.svg",
+      "lineArt": "drawings/animals/tiger.svg",
+      "difficulty": "hard",
+      "tags": [
+        "老虎",
+        "虎",
+        "條紋"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "lion",
+      "name": "獅子",
+      "category": "animals",
+      "thumbnail": "drawings/animals/lion.svg",
+      "lineArt": "drawings/animals/lion.svg",
+      "difficulty": "medium",
+      "tags": [
+        "獅子",
+        "萬獸之王",
+        "鬃毛"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "elephant",
+      "name": "大象",
+      "category": "animals",
+      "thumbnail": "drawings/animals/elephant.svg",
+      "lineArt": "drawings/animals/elephant.svg",
+      "difficulty": "easy",
+      "tags": [
+        "大象",
+        "象",
+        "象鼻"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "giraffe",
+      "name": "長頸鹿",
+      "category": "animals",
+      "thumbnail": "drawings/animals/giraffe.svg",
+      "lineArt": "drawings/animals/giraffe.svg",
+      "difficulty": "hard",
+      "tags": [
+        "長頸鹿",
+        "脖子",
+        "斑點"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "zebra",
+      "name": "斑馬",
+      "category": "animals",
+      "thumbnail": "drawings/animals/zebra.svg",
+      "lineArt": "drawings/animals/zebra.svg",
+      "difficulty": "hard",
+      "tags": [
+        "斑馬",
+        "馬",
+        "條紋"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "rabbit",
+      "name": "兔子",
+      "category": "animals",
+      "thumbnail": "drawings/animals/rabbit.svg",
+      "lineArt": "drawings/animals/rabbit.svg",
+      "difficulty": "medium",
+      "tags": [
+        "兔子",
+        "兔",
+        "紅蘿蔔"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "squirrel",
+      "name": "松鼠",
+      "category": "animals",
+      "thumbnail": "drawings/animals/squirrel.svg",
+      "lineArt": "drawings/animals/squirrel.svg",
+      "difficulty": "medium",
+      "tags": [
+        "松鼠",
+        "橡實",
+        "森林"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "panda",
+      "name": "熊貓",
+      "category": "animals",
+      "thumbnail": "drawings/animals/panda.svg",
+      "lineArt": "drawings/animals/panda.svg",
+      "difficulty": "medium",
+      "tags": [
+        "熊貓",
+        "貓熊",
+        "竹子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "monkey",
+      "name": "猴子",
+      "category": "animals",
+      "thumbnail": "drawings/animals/monkey.svg",
+      "lineArt": "drawings/animals/monkey.svg",
+      "difficulty": "medium",
+      "tags": [
+        "猴子",
+        "猴"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "dog",
+      "name": "狗",
+      "category": "animals",
+      "thumbnail": "drawings/animals/dog.svg",
+      "lineArt": "drawings/animals/dog.svg",
+      "difficulty": "easy",
+      "tags": [
+        "狗",
+        "小狗",
+        "汪",
+        "寵物"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
       "id": "cat",
-      "name": "小貓咪",
+      "name": "貓",
       "category": "animals",
       "thumbnail": "drawings/animals/cat.svg",
       "lineArt": "drawings/animals/cat.svg",
       "difficulty": "easy",
-      "tags": ["貓", "喵", "寵物"],
-      "popular": true,
-      "addedAt": "2026-10-01"
+      "tags": [
+        "貓",
+        "喵",
+        "寵物"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
     },
     {
       "id": "pig",
-      "name": "胖胖小豬",
+      "name": "小豬",
       "category": "animals",
       "thumbnail": "drawings/animals/pig.svg",
       "lineArt": "drawings/animals/pig.svg",
       "difficulty": "medium",
-      "tags": ["豬", "農場"],
+      "tags": [
+        "豬",
+        "農場"
+      ],
       "popular": false,
-      "addedAt": "2026-11-10"
+      "addedAt": "2026-11-18"
     },
     {
-      "id": "trex",
-      "name": "小暴龍",
-      "category": "dinosaurs",
-      "thumbnail": "drawings/dinosaurs/trex.svg",
-      "lineArt": "drawings/dinosaurs/trex.svg",
-      "difficulty": "medium",
-      "tags": ["暴龍", "恐龍"],
-      "popular": true,
-      "addedAt": "2026-10-03"
-    },
-    {
-      "id": "brontosaurus",
-      "name": "長脖子恐龍",
-      "category": "dinosaurs",
-      "thumbnail": "drawings/dinosaurs/brontosaurus.svg",
-      "lineArt": "drawings/dinosaurs/brontosaurus.svg",
+      "id": "sheep",
+      "name": "綿羊",
+      "category": "animals",
+      "thumbnail": "drawings/animals/sheep.svg",
+      "lineArt": "drawings/animals/sheep.svg",
       "difficulty": "easy",
-      "tags": ["雷龍", "長頸龍", "恐龍"],
+      "tags": [
+        "綿羊",
+        "羊",
+        "農場"
+      ],
       "popular": false,
-      "addedAt": "2026-11-12"
+      "addedAt": "2026-11-18"
     },
     {
-      "id": "fish",
-      "name": "快樂小魚",
-      "category": "ocean",
-      "thumbnail": "drawings/ocean/fish.svg",
-      "lineArt": "drawings/ocean/fish.svg",
+      "id": "frog",
+      "name": "青蛙",
+      "category": "animals",
+      "thumbnail": "drawings/animals/frog.svg",
+      "lineArt": "drawings/animals/frog.svg",
+      "difficulty": "medium",
+      "tags": [
+        "青蛙",
+        "荷葉",
+        "呱呱"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "dolphin",
+      "name": "海豚",
+      "category": "animals",
+      "thumbnail": "drawings/animals/dolphin.svg",
+      "lineArt": "drawings/animals/dolphin.svg",
       "difficulty": "easy",
-      "tags": ["魚", "海", "泡泡"],
-      "popular": true,
-      "addedAt": "2026-10-05"
-    },
-    {
-      "id": "octopus",
-      "name": "章魚寶寶",
-      "category": "ocean",
-      "thumbnail": "drawings/ocean/octopus.svg",
-      "lineArt": "drawings/ocean/octopus.svg",
-      "difficulty": "medium",
-      "tags": ["章魚", "海"],
+      "tags": [
+        "海豚",
+        "海洋",
+        "海浪"
+      ],
       "popular": false,
-      "addedAt": "2026-11-14"
+      "addedAt": "2026-11-18"
     },
     {
-      "id": "car",
-      "name": "嘟嘟小汽車",
-      "category": "vehicles",
-      "thumbnail": "drawings/vehicles/car.svg",
-      "lineArt": "drawings/vehicles/car.svg",
+      "id": "sea-turtle",
+      "name": "海龜",
+      "category": "animals",
+      "thumbnail": "drawings/animals/sea-turtle.svg",
+      "lineArt": "drawings/animals/sea-turtle.svg",
+      "difficulty": "medium",
+      "tags": [
+        "海龜",
+        "烏龜",
+        "海洋"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-18"
+    },
+    {
+      "id": "butterfly",
+      "name": "蝴蝶",
+      "category": "animals",
+      "thumbnail": "drawings/animals/butterfly.svg",
+      "lineArt": "drawings/animals/butterfly.svg",
+      "difficulty": "medium",
+      "tags": [
+        "蝴蝶",
+        "昆蟲",
+        "翅膀"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-19"
+    },
+    {
+      "id": "sunflower",
+      "name": "向日葵",
+      "category": "plants",
+      "thumbnail": "drawings/plants/sunflower.svg",
+      "lineArt": "drawings/plants/sunflower.svg",
+      "difficulty": "medium",
+      "tags": [
+        "向日葵",
+        "花",
+        "太陽花"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "rose",
+      "name": "玫瑰",
+      "category": "plants",
+      "thumbnail": "drawings/plants/rose.svg",
+      "lineArt": "drawings/plants/rose.svg",
       "difficulty": "easy",
-      "tags": ["車", "汽車"],
-      "popular": true,
-      "addedAt": "2026-10-07"
-    },
-    {
-      "id": "rocket",
-      "name": "太空火箭",
-      "category": "vehicles",
-      "thumbnail": "drawings/vehicles/rocket.svg",
-      "lineArt": "drawings/vehicles/rocket.svg",
-      "difficulty": "medium",
-      "tags": ["火箭", "太空", "星星"],
-      "popular": false,
-      "addedAt": "2026-11-15"
-    },
-    {
-      "id": "princess",
-      "name": "星星小公主",
-      "category": "fairytale",
-      "thumbnail": "drawings/fairytale/princess.svg",
-      "lineArt": "drawings/fairytale/princess.svg",
-      "difficulty": "hard",
-      "tags": ["公主", "皇冠"],
-      "popular": true,
-      "addedAt": "2026-10-09"
-    },
-    {
-      "id": "unicorn",
-      "name": "彩虹獨角獸",
-      "category": "fairytale",
-      "thumbnail": "drawings/fairytale/unicorn.svg",
-      "lineArt": "drawings/fairytale/unicorn.svg",
-      "difficulty": "hard",
-      "tags": ["獨角獸", "馬", "愛心"],
-      "popular": false,
-      "addedAt": "2026-11-16"
-    },
-    {
-      "id": "birthday-cake",
-      "name": "生日蛋糕",
-      "category": "holidays",
-      "thumbnail": "drawings/holidays/birthday-cake.svg",
-      "lineArt": "drawings/holidays/birthday-cake.svg",
-      "difficulty": "medium",
-      "tags": ["生日", "蛋糕", "氣球"],
-      "popular": true,
-      "addedAt": "2026-10-11"
-    },
-    {
-      "id": "christmas-tree",
-      "name": "聖誕樹",
-      "category": "holidays",
-      "thumbnail": "drawings/holidays/christmas-tree.svg",
-      "lineArt": "drawings/holidays/christmas-tree.svg",
-      "difficulty": "hard",
-      "tags": ["聖誕節", "禮物", "樹"],
+      "tags": [
+        "玫瑰",
+        "花",
+        "玫瑰花"
+      ],
       "popular": false,
       "addedAt": "2026-11-17"
     },
     {
-      "id": "pumpkin",
-      "name": "南瓜燈",
-      "category": "holidays",
-      "thumbnail": "drawings/holidays/pumpkin.svg",
-      "lineArt": "drawings/holidays/pumpkin.svg",
+      "id": "tulip",
+      "name": "鬱金香",
+      "category": "plants",
+      "thumbnail": "drawings/plants/tulip.svg",
+      "lineArt": "drawings/plants/tulip.svg",
       "difficulty": "easy",
-      "tags": ["萬聖節", "南瓜"],
+      "tags": [
+        "鬱金香",
+        "花",
+        "花園"
+      ],
       "popular": false,
-      "addedAt": "2026-10-28"
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "daisy",
+      "name": "雛菊",
+      "category": "plants",
+      "thumbnail": "drawings/plants/daisy.svg",
+      "lineArt": "drawings/plants/daisy.svg",
+      "difficulty": "hard",
+      "tags": [
+        "雛菊",
+        "花",
+        "小花"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "morning-glory",
+      "name": "牽牛花",
+      "category": "plants",
+      "thumbnail": "drawings/plants/morning-glory.svg",
+      "lineArt": "drawings/plants/morning-glory.svg",
+      "difficulty": "medium",
+      "tags": [
+        "牽牛花",
+        "花",
+        "藤蔓"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "lotus",
+      "name": "荷花",
+      "category": "plants",
+      "thumbnail": "drawings/plants/lotus.svg",
+      "lineArt": "drawings/plants/lotus.svg",
+      "difficulty": "medium",
+      "tags": [
+        "荷花",
+        "蓮花",
+        "池塘",
+        "荷葉"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "cactus",
+      "name": "仙人掌",
+      "category": "plants",
+      "thumbnail": "drawings/plants/cactus.svg",
+      "lineArt": "drawings/plants/cactus.svg",
+      "difficulty": "easy",
+      "tags": [
+        "仙人掌",
+        "沙漠",
+        "植物"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "fern",
+      "name": "蕨類植物",
+      "category": "plants",
+      "thumbnail": "drawings/plants/fern.svg",
+      "lineArt": "drawings/plants/fern.svg",
+      "difficulty": "hard",
+      "tags": [
+        "蕨類",
+        "蕨",
+        "植物",
+        "葉子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "bamboo",
+      "name": "竹子",
+      "category": "plants",
+      "thumbnail": "drawings/plants/bamboo.svg",
+      "lineArt": "drawings/plants/bamboo.svg",
+      "difficulty": "hard",
+      "tags": [
+        "竹子",
+        "竹",
+        "竹林"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "oak-tree",
+      "name": "橡樹",
+      "category": "plants",
+      "thumbnail": "drawings/plants/oak-tree.svg",
+      "lineArt": "drawings/plants/oak-tree.svg",
+      "difficulty": "easy",
+      "tags": [
+        "橡樹",
+        "樹",
+        "橡實"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "maple-tree",
+      "name": "楓樹",
+      "category": "plants",
+      "thumbnail": "drawings/plants/maple-tree.svg",
+      "lineArt": "drawings/plants/maple-tree.svg",
+      "difficulty": "easy",
+      "tags": [
+        "楓樹",
+        "樹",
+        "楓葉",
+        "秋天"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "pine-tree",
+      "name": "松樹",
+      "category": "plants",
+      "thumbnail": "drawings/plants/pine-tree.svg",
+      "lineArt": "drawings/plants/pine-tree.svg",
+      "difficulty": "easy",
+      "tags": [
+        "松樹",
+        "樹",
+        "松果"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "coconut-tree",
+      "name": "椰子樹",
+      "category": "plants",
+      "thumbnail": "drawings/plants/coconut-tree.svg",
+      "lineArt": "drawings/plants/coconut-tree.svg",
+      "difficulty": "medium",
+      "tags": [
+        "椰子樹",
+        "椰子",
+        "海邊",
+        "樹"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "apple-tree",
+      "name": "蘋果樹",
+      "category": "plants",
+      "thumbnail": "drawings/plants/apple-tree.svg",
+      "lineArt": "drawings/plants/apple-tree.svg",
+      "difficulty": "medium",
+      "tags": [
+        "蘋果樹",
+        "蘋果",
+        "果樹",
+        "樹"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "cherry-blossom-tree",
+      "name": "櫻花樹",
+      "category": "plants",
+      "thumbnail": "drawings/plants/cherry-blossom-tree.svg",
+      "lineArt": "drawings/plants/cherry-blossom-tree.svg",
+      "difficulty": "medium",
+      "tags": [
+        "櫻花",
+        "櫻花樹",
+        "春天",
+        "樹"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "mushroom",
+      "name": "蘑菇",
+      "category": "plants",
+      "thumbnail": "drawings/plants/mushroom.svg",
+      "lineArt": "drawings/plants/mushroom.svg",
+      "difficulty": "medium",
+      "tags": [
+        "蘑菇",
+        "香菇",
+        "菇"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "potted-cactus",
+      "name": "仙人掌盆栽",
+      "category": "plants",
+      "thumbnail": "drawings/plants/potted-cactus.svg",
+      "lineArt": "drawings/plants/potted-cactus.svg",
+      "difficulty": "easy",
+      "tags": [
+        "仙人掌",
+        "盆栽",
+        "花盆"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "herb-pot",
+      "name": "香草盆栽",
+      "category": "plants",
+      "thumbnail": "drawings/plants/herb-pot.svg",
+      "lineArt": "drawings/plants/herb-pot.svg",
+      "difficulty": "hard",
+      "tags": [
+        "香草",
+        "盆栽",
+        "花盆",
+        "植物"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "mini-garden",
+      "name": "迷你菜園",
+      "category": "plants",
+      "thumbnail": "drawings/plants/mini-garden.svg",
+      "lineArt": "drawings/plants/mini-garden.svg",
+      "difficulty": "hard",
+      "tags": [
+        "菜園",
+        "蔬菜",
+        "紅蘿蔔",
+        "番茄"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "bouquet",
+      "name": "花束",
+      "category": "plants",
+      "thumbnail": "drawings/plants/bouquet.svg",
+      "lineArt": "drawings/plants/bouquet.svg",
+      "difficulty": "hard",
+      "tags": [
+        "花束",
+        "花",
+        "禮物"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-17"
+    },
+    {
+      "id": "sunrise-mountains",
+      "name": "日出山景",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/sunrise-mountains.svg",
+      "lineArt": "drawings/scenery/sunrise-mountains.svg",
+      "difficulty": "easy",
+      "tags": [
+        "日出",
+        "山",
+        "太陽",
+        "風景"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "starry-night",
+      "name": "月夜星空",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/starry-night.svg",
+      "lineArt": "drawings/scenery/starry-night.svg",
+      "difficulty": "medium",
+      "tags": [
+        "月亮",
+        "星星",
+        "夜晚",
+        "星空"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "rainbow-clouds",
+      "name": "彩虹與白雲",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/rainbow-clouds.svg",
+      "lineArt": "drawings/scenery/rainbow-clouds.svg",
+      "difficulty": "easy",
+      "tags": [
+        "彩虹",
+        "雲",
+        "天空",
+        "風景"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "beach",
+      "name": "海邊沙灘",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/beach.svg",
+      "lineArt": "drawings/scenery/beach.svg",
+      "difficulty": "medium",
+      "tags": [
+        "海邊",
+        "沙灘",
+        "海",
+        "夏天"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "forest-path",
+      "name": "森林小徑",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/forest-path.svg",
+      "lineArt": "drawings/scenery/forest-path.svg",
+      "difficulty": "hard",
+      "tags": [
+        "森林",
+        "小路",
+        "樹",
+        "風景"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "waterfall",
+      "name": "瀑布",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/waterfall.svg",
+      "lineArt": "drawings/scenery/waterfall.svg",
+      "difficulty": "easy",
+      "tags": [
+        "瀑布",
+        "水",
+        "山",
+        "風景"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "lakeside-cabin",
+      "name": "湖畔小屋",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/lakeside-cabin.svg",
+      "lineArt": "drawings/scenery/lakeside-cabin.svg",
+      "difficulty": "medium",
+      "tags": [
+        "湖",
+        "小屋",
+        "房子",
+        "山"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "snowy-mountain",
+      "name": "雪山",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/snowy-mountain.svg",
+      "lineArt": "drawings/scenery/snowy-mountain.svg",
+      "difficulty": "hard",
+      "tags": [
+        "雪山",
+        "山",
+        "雪",
+        "松樹"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "meadow-flowers",
+      "name": "草原與野花",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/meadow-flowers.svg",
+      "lineArt": "drawings/scenery/meadow-flowers.svg",
+      "difficulty": "hard",
+      "tags": [
+        "草原",
+        "花",
+        "蝴蝶",
+        "春天"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "desert-cactus",
+      "name": "沙漠與仙人掌",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/desert-cactus.svg",
+      "lineArt": "drawings/scenery/desert-cactus.svg",
+      "difficulty": "easy",
+      "tags": [
+        "沙漠",
+        "仙人掌",
+        "太陽"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "windmill-fields",
+      "name": "田野與風車",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/windmill-fields.svg",
+      "lineArt": "drawings/scenery/windmill-fields.svg",
+      "difficulty": "medium",
+      "tags": [
+        "風車",
+        "田野",
+        "農場",
+        "風景"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "river-bridge",
+      "name": "河流與小橋",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/river-bridge.svg",
+      "lineArt": "drawings/scenery/river-bridge.svg",
+      "difficulty": "medium",
+      "tags": [
+        "河流",
+        "橋",
+        "小橋",
+        "風景"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "autumn-woods",
+      "name": "秋天的樹林",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/autumn-woods.svg",
+      "lineArt": "drawings/scenery/autumn-woods.svg",
+      "difficulty": "medium",
+      "tags": [
+        "秋天",
+        "樹林",
+        "落葉",
+        "樹"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "cherry-blossom-park",
+      "name": "春天的櫻花公園",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/cherry-blossom-park.svg",
+      "lineArt": "drawings/scenery/cherry-blossom-park.svg",
+      "difficulty": "hard",
+      "tags": [
+        "櫻花",
+        "春天",
+        "公園",
+        "花"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "summer-island",
+      "name": "夏日海島",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/summer-island.svg",
+      "lineArt": "drawings/scenery/summer-island.svg",
+      "difficulty": "easy",
+      "tags": [
+        "海島",
+        "椰子樹",
+        "夏天",
+        "海"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "winter-snow",
+      "name": "冬日雪景",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/winter-snow.svg",
+      "lineArt": "drawings/scenery/winter-snow.svg",
+      "difficulty": "hard",
+      "tags": [
+        "冬天",
+        "雪人",
+        "雪",
+        "雪花"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "pond-after-rain",
+      "name": "雨後池塘",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/pond-after-rain.svg",
+      "lineArt": "drawings/scenery/pond-after-rain.svg",
+      "difficulty": "hard",
+      "tags": [
+        "池塘",
+        "青蛙",
+        "荷葉",
+        "彩虹"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "volcano",
+      "name": "火山與熔岩",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/volcano.svg",
+      "lineArt": "drawings/scenery/volcano.svg",
+      "difficulty": "easy",
+      "tags": [
+        "火山",
+        "熔岩",
+        "山"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "firefly-forest",
+      "name": "夜晚的螢火蟲森林",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/firefly-forest.svg",
+      "lineArt": "drawings/scenery/firefly-forest.svg",
+      "difficulty": "hard",
+      "tags": [
+        "螢火蟲",
+        "森林",
+        "夜晚",
+        "月亮"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "sky-castle",
+      "name": "雲上的天空城",
+      "category": "scenery",
+      "thumbnail": "drawings/scenery/sky-castle.svg",
+      "lineArt": "drawings/scenery/sky-castle.svg",
+      "difficulty": "medium",
+      "tags": [
+        "城堡",
+        "雲",
+        "天空",
+        "天空城"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-19"
+    },
+    {
+      "id": "little-red-riding-hood",
+      "name": "小紅帽走在森林裡",
+      "category": "stories",
+      "thumbnail": "drawings/stories/little-red-riding-hood.svg",
+      "lineArt": "drawings/stories/little-red-riding-hood.svg",
+      "difficulty": "easy",
+      "tags": [
+        "小紅帽",
+        "森林",
+        "童話"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "three-little-pigs",
+      "name": "三隻小豬蓋房子",
+      "category": "stories",
+      "thumbnail": "drawings/stories/three-little-pigs.svg",
+      "lineArt": "drawings/stories/three-little-pigs.svg",
+      "difficulty": "hard",
+      "tags": [
+        "三隻小豬",
+        "小豬",
+        "房子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "tortoise-and-hare",
+      "name": "龜兔賽跑",
+      "category": "stories",
+      "thumbnail": "drawings/stories/tortoise-and-hare.svg",
+      "lineArt": "drawings/stories/tortoise-and-hare.svg",
+      "difficulty": "medium",
+      "tags": [
+        "龜兔賽跑",
+        "烏龜",
+        "兔子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "jack-and-beanstalk",
+      "name": "傑克與魔豆",
+      "category": "stories",
+      "thumbnail": "drawings/stories/jack-and-beanstalk.svg",
+      "lineArt": "drawings/stories/jack-and-beanstalk.svg",
+      "difficulty": "easy",
+      "tags": [
+        "傑克",
+        "魔豆",
+        "雲朵"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "candy-house",
+      "name": "糖果屋",
+      "category": "stories",
+      "thumbnail": "drawings/stories/candy-house.svg",
+      "lineArt": "drawings/stories/candy-house.svg",
+      "difficulty": "medium",
+      "tags": [
+        "糖果屋",
+        "糖果",
+        "房子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "snow-white-dwarfs",
+      "name": "白雪公主與小矮人",
+      "category": "stories",
+      "thumbnail": "drawings/stories/snow-white-dwarfs.svg",
+      "lineArt": "drawings/stories/snow-white-dwarfs.svg",
+      "difficulty": "hard",
+      "tags": [
+        "白雪公主",
+        "小矮人",
+        "公主"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "mermaid-friends",
+      "name": "美人魚與海底朋友",
+      "category": "stories",
+      "thumbnail": "drawings/stories/mermaid-friends.svg",
+      "lineArt": "drawings/stories/mermaid-friends.svg",
+      "difficulty": "easy",
+      "tags": [
+        "美人魚",
+        "海底",
+        "魚"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "frog-prince",
+      "name": "青蛙王子",
+      "category": "stories",
+      "thumbnail": "drawings/stories/frog-prince.svg",
+      "lineArt": "drawings/stories/frog-prince.svg",
+      "difficulty": "easy",
+      "tags": [
+        "青蛙王子",
+        "青蛙",
+        "王冠"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "aladdin-lamp",
+      "name": "阿拉丁與神燈",
+      "category": "stories",
+      "thumbnail": "drawings/stories/aladdin-lamp.svg",
+      "lineArt": "drawings/stories/aladdin-lamp.svg",
+      "difficulty": "medium",
+      "tags": [
+        "阿拉丁",
+        "神燈",
+        "精靈"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "rapunzel-tower",
+      "name": "長髮公主的高塔",
+      "category": "stories",
+      "thumbnail": "drawings/stories/rapunzel-tower.svg",
+      "lineArt": "drawings/stories/rapunzel-tower.svg",
+      "difficulty": "easy",
+      "tags": [
+        "長髮公主",
+        "高塔",
+        "公主"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "sleeping-beauty-castle",
+      "name": "睡美人與城堡",
+      "category": "stories",
+      "thumbnail": "drawings/stories/sleeping-beauty-castle.svg",
+      "lineArt": "drawings/stories/sleeping-beauty-castle.svg",
+      "difficulty": "easy",
+      "tags": [
+        "睡美人",
+        "城堡",
+        "公主"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "puppet-and-cricket",
+      "name": "小木偶和蟋蟀",
+      "category": "stories",
+      "thumbnail": "drawings/stories/puppet-and-cricket.svg",
+      "lineArt": "drawings/stories/puppet-and-cricket.svg",
+      "difficulty": "medium",
+      "tags": [
+        "小木偶",
+        "蟋蟀",
+        "木偶"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "timid-lion",
+      "name": "膽小獅子與新朋友",
+      "category": "stories",
+      "thumbnail": "drawings/stories/timid-lion.svg",
+      "lineArt": "drawings/stories/timid-lion.svg",
+      "difficulty": "hard",
+      "tags": [
+        "獅子",
+        "兔子",
+        "朋友"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "giant-and-adventurer",
+      "name": "巨人與小小冒險家",
+      "category": "stories",
+      "thumbnail": "drawings/stories/giant-and-adventurer.svg",
+      "lineArt": "drawings/stories/giant-and-adventurer.svg",
+      "difficulty": "medium",
+      "tags": [
+        "巨人",
+        "冒險",
+        "探險"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "forest-birthday-party",
+      "name": "森林動物的生日派對",
+      "category": "stories",
+      "thumbnail": "drawings/stories/forest-birthday-party.svg",
+      "lineArt": "drawings/stories/forest-birthday-party.svg",
+      "difficulty": "medium",
+      "tags": [
+        "生日",
+        "蛋糕",
+        "派對",
+        "動物"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "bear-and-honey",
+      "name": "小熊尋找蜂蜜",
+      "category": "stories",
+      "thumbnail": "drawings/stories/bear-and-honey.svg",
+      "lineArt": "drawings/stories/bear-and-honey.svg",
+      "difficulty": "medium",
+      "tags": [
+        "小熊",
+        "蜂蜜",
+        "蜜蜂"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "space-explorers",
+      "name": "太空探險隊",
+      "category": "stories",
+      "thumbnail": "drawings/stories/space-explorers.svg",
+      "lineArt": "drawings/stories/space-explorers.svg",
+      "difficulty": "hard",
+      "tags": [
+        "太空",
+        "火箭",
+        "太空人",
+        "外星人"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "pirate-treasure",
+      "name": "海盜尋寶",
+      "category": "stories",
+      "thumbnail": "drawings/stories/pirate-treasure.svg",
+      "lineArt": "drawings/stories/pirate-treasure.svg",
+      "difficulty": "hard",
+      "tags": [
+        "海盜",
+        "寶藏",
+        "寶箱"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "wizard-garden",
+      "name": "魔法師的奇妙花園",
+      "category": "stories",
+      "thumbnail": "drawings/stories/wizard-garden.svg",
+      "lineArt": "drawings/stories/wizard-garden.svg",
+      "difficulty": "hard",
+      "tags": [
+        "魔法師",
+        "花園",
+        "魔法"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "baby-dino-eggs",
+      "name": "小恐龍尋找彩蛋",
+      "category": "stories",
+      "thumbnail": "drawings/stories/baby-dino-eggs.svg",
+      "lineArt": "drawings/stories/baby-dino-eggs.svg",
+      "difficulty": "easy",
+      "tags": [
+        "恐龍",
+        "恐龍蛋",
+        "彩蛋"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "log-cabin",
+      "name": "小木屋",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/log-cabin.svg",
+      "lineArt": "drawings/buildings/log-cabin.svg",
+      "difficulty": "medium",
+      "tags": [
+        "小木屋",
+        "木屋",
+        "房子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "castle",
+      "name": "城堡",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/castle.svg",
+      "lineArt": "drawings/buildings/castle.svg",
+      "difficulty": "medium",
+      "tags": [
+        "城堡",
+        "皇宮",
+        "公主"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "lighthouse",
+      "name": "燈塔",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/lighthouse.svg",
+      "lineArt": "drawings/buildings/lighthouse.svg",
+      "difficulty": "easy",
+      "tags": [
+        "燈塔",
+        "海邊",
+        "大海"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "windmill",
+      "name": "風車",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/windmill.svg",
+      "lineArt": "drawings/buildings/windmill.svg",
+      "difficulty": "hard",
+      "tags": [
+        "風車",
+        "荷蘭",
+        "鬱金香"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "watermill",
+      "name": "磨坊",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/watermill.svg",
+      "lineArt": "drawings/buildings/watermill.svg",
+      "difficulty": "hard",
+      "tags": [
+        "磨坊",
+        "水車",
+        "小河"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "barn",
+      "name": "農場穀倉",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/barn.svg",
+      "lineArt": "drawings/buildings/barn.svg",
+      "difficulty": "medium",
+      "tags": [
+        "穀倉",
+        "農場",
+        "農舍"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "fire-station",
+      "name": "消防局",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/fire-station.svg",
+      "lineArt": "drawings/buildings/fire-station.svg",
+      "difficulty": "easy",
+      "tags": [
+        "消防局",
+        "消防隊",
+        "消防員"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "police-station",
+      "name": "警察局",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/police-station.svg",
+      "lineArt": "drawings/buildings/police-station.svg",
+      "difficulty": "medium",
+      "tags": [
+        "警察局",
+        "警察",
+        "派出所"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "train-station",
+      "name": "火車站",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/train-station.svg",
+      "lineArt": "drawings/buildings/train-station.svg",
+      "difficulty": "hard",
+      "tags": [
+        "火車站",
+        "火車",
+        "車站"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "school",
+      "name": "學校",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/school.svg",
+      "lineArt": "drawings/buildings/school.svg",
+      "difficulty": "easy",
+      "tags": [
+        "學校",
+        "上學",
+        "教室"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "library",
+      "name": "圖書館",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/library.svg",
+      "lineArt": "drawings/buildings/library.svg",
+      "difficulty": "hard",
+      "tags": [
+        "圖書館",
+        "書",
+        "看書"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "hospital",
+      "name": "醫院",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/hospital.svg",
+      "lineArt": "drawings/buildings/hospital.svg",
+      "difficulty": "easy",
+      "tags": [
+        "醫院",
+        "醫生",
+        "看病"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "bakery",
+      "name": "麵包店",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/bakery.svg",
+      "lineArt": "drawings/buildings/bakery.svg",
+      "difficulty": "easy",
+      "tags": [
+        "麵包店",
+        "麵包",
+        "商店"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "cafe",
+      "name": "咖啡館",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/cafe.svg",
+      "lineArt": "drawings/buildings/cafe.svg",
+      "difficulty": "easy",
+      "tags": [
+        "咖啡館",
+        "咖啡",
+        "商店"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "mushroom-house",
+      "name": "蘑菇屋",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/mushroom-house.svg",
+      "lineArt": "drawings/buildings/mushroom-house.svg",
+      "difficulty": "easy",
+      "tags": [
+        "蘑菇屋",
+        "蘑菇",
+        "童話"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "treehouse",
+      "name": "樹屋",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/treehouse.svg",
+      "lineArt": "drawings/buildings/treehouse.svg",
+      "difficulty": "medium",
+      "tags": [
+        "樹屋",
+        "大樹",
+        "房子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "japanese-house",
+      "name": "日式小屋",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/japanese-house.svg",
+      "lineArt": "drawings/buildings/japanese-house.svg",
+      "difficulty": "hard",
+      "tags": [
+        "日式",
+        "日本",
+        "房子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "chinese-courtyard",
+      "name": "中式庭院",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/chinese-courtyard.svg",
+      "lineArt": "drawings/buildings/chinese-courtyard.svg",
+      "difficulty": "hard",
+      "tags": [
+        "中式",
+        "四合院",
+        "燈籠"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "skyscraper",
+      "name": "摩天大樓",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/skyscraper.svg",
+      "lineArt": "drawings/buildings/skyscraper.svg",
+      "difficulty": "hard",
+      "tags": [
+        "摩天大樓",
+        "大樓",
+        "城市"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-14"
+    },
+    {
+      "id": "bridge",
+      "name": "橋梁",
+      "category": "buildings",
+      "thumbnail": "drawings/buildings/bridge.svg",
+      "lineArt": "drawings/buildings/bridge.svg",
+      "difficulty": "medium",
+      "tags": [
+        "橋",
+        "橋梁",
+        "小船"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-19"
+    },
+    {
+      "id": "sofa",
+      "name": "沙發",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/sofa.svg",
+      "lineArt": "drawings/furniture/sofa.svg",
+      "difficulty": "easy",
+      "tags": [
+        "沙發",
+        "客廳",
+        "家具"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "armchair",
+      "name": "單人椅",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/armchair.svg",
+      "lineArt": "drawings/furniture/armchair.svg",
+      "difficulty": "easy",
+      "tags": [
+        "單人椅",
+        "扶手椅",
+        "沙發椅"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "dining-table",
+      "name": "餐桌",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/dining-table.svg",
+      "lineArt": "drawings/furniture/dining-table.svg",
+      "difficulty": "medium",
+      "tags": [
+        "餐桌",
+        "桌子",
+        "花瓶"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "dining-chair",
+      "name": "餐椅",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/dining-chair.svg",
+      "lineArt": "drawings/furniture/dining-chair.svg",
+      "difficulty": "medium",
+      "tags": [
+        "餐椅",
+        "椅子",
+        "木椅"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "desk",
+      "name": "書桌",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/desk.svg",
+      "lineArt": "drawings/furniture/desk.svg",
+      "difficulty": "medium",
+      "tags": [
+        "書桌",
+        "桌子",
+        "檯燈"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "bookshelf",
+      "name": "書架",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/bookshelf.svg",
+      "lineArt": "drawings/furniture/bookshelf.svg",
+      "difficulty": "hard",
+      "tags": [
+        "書架",
+        "書櫃",
+        "書本"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "bed",
+      "name": "床",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/bed.svg",
+      "lineArt": "drawings/furniture/bed.svg",
+      "difficulty": "medium",
+      "tags": [
+        "床",
+        "臥室",
+        "小熊"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "crib",
+      "name": "嬰兒床",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/crib.svg",
+      "lineArt": "drawings/furniture/crib.svg",
+      "difficulty": "hard",
+      "tags": [
+        "嬰兒床",
+        "寶寶",
+        "兔子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "wardrobe",
+      "name": "衣櫃",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/wardrobe.svg",
+      "lineArt": "drawings/furniture/wardrobe.svg",
+      "difficulty": "easy",
+      "tags": [
+        "衣櫃",
+        "衣櫥",
+        "櫃子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "dresser",
+      "name": "抽屜櫃",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/dresser.svg",
+      "lineArt": "drawings/furniture/dresser.svg",
+      "difficulty": "medium",
+      "tags": [
+        "抽屜櫃",
+        "抽屜",
+        "櫃子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "coffee-table",
+      "name": "茶几",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/coffee-table.svg",
+      "lineArt": "drawings/furniture/coffee-table.svg",
+      "difficulty": "medium",
+      "tags": [
+        "茶几",
+        "桌子",
+        "餅乾"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "tv-stand",
+      "name": "電視櫃",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/tv-stand.svg",
+      "lineArt": "drawings/furniture/tv-stand.svg",
+      "difficulty": "medium",
+      "tags": [
+        "電視櫃",
+        "電視",
+        "客廳"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "shoe-cabinet",
+      "name": "鞋櫃",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/shoe-cabinet.svg",
+      "lineArt": "drawings/furniture/shoe-cabinet.svg",
+      "difficulty": "hard",
+      "tags": [
+        "鞋櫃",
+        "鞋子",
+        "球鞋"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "vanity",
+      "name": "梳妝台",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/vanity.svg",
+      "lineArt": "drawings/furniture/vanity.svg",
+      "difficulty": "easy",
+      "tags": [
+        "梳妝台",
+        "鏡子",
+        "化妝台"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "sideboard",
+      "name": "餐邊櫃",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/sideboard.svg",
+      "lineArt": "drawings/furniture/sideboard.svg",
+      "difficulty": "medium",
+      "tags": [
+        "餐邊櫃",
+        "櫃子",
+        "茶壺"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "swing-chair",
+      "name": "鞦韆椅",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/swing-chair.svg",
+      "lineArt": "drawings/furniture/swing-chair.svg",
+      "difficulty": "easy",
+      "tags": [
+        "鞦韆椅",
+        "吊椅",
+        "鞦韆"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "beanbag",
+      "name": "豆袋椅",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/beanbag.svg",
+      "lineArt": "drawings/furniture/beanbag.svg",
+      "difficulty": "easy",
+      "tags": [
+        "豆袋椅",
+        "懶骨頭",
+        "沙發"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "storage-rack",
+      "name": "置物架",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/storage-rack.svg",
+      "lineArt": "drawings/furniture/storage-rack.svg",
+      "difficulty": "hard",
+      "tags": [
+        "置物架",
+        "架子",
+        "盆栽"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "piano-bench",
+      "name": "鋼琴椅",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/piano-bench.svg",
+      "lineArt": "drawings/furniture/piano-bench.svg",
+      "difficulty": "easy",
+      "tags": [
+        "鋼琴椅",
+        "鋼琴",
+        "音符"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "park-bench",
+      "name": "公園長椅",
+      "category": "furniture",
+      "thumbnail": "drawings/furniture/park-bench.svg",
+      "lineArt": "drawings/furniture/park-bench.svg",
+      "difficulty": "medium",
+      "tags": [
+        "公園長椅",
+        "長椅",
+        "公園"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "apple",
+      "name": "蘋果",
+      "category": "food",
+      "thumbnail": "drawings/food/apple.svg",
+      "lineArt": "drawings/food/apple.svg",
+      "difficulty": "easy",
+      "tags": [
+        "蘋果",
+        "水果"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "banana",
+      "name": "香蕉",
+      "category": "food",
+      "thumbnail": "drawings/food/banana.svg",
+      "lineArt": "drawings/food/banana.svg",
+      "difficulty": "easy",
+      "tags": [
+        "香蕉",
+        "水果"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "strawberry",
+      "name": "草莓",
+      "category": "food",
+      "thumbnail": "drawings/food/strawberry.svg",
+      "lineArt": "drawings/food/strawberry.svg",
+      "difficulty": "easy",
+      "tags": [
+        "草莓",
+        "水果",
+        "莓果"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "watermelon",
+      "name": "西瓜",
+      "category": "food",
+      "thumbnail": "drawings/food/watermelon.svg",
+      "lineArt": "drawings/food/watermelon.svg",
+      "difficulty": "medium",
+      "tags": [
+        "西瓜",
+        "水果",
+        "夏天"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "grapes",
+      "name": "葡萄",
+      "category": "food",
+      "thumbnail": "drawings/food/grapes.svg",
+      "lineArt": "drawings/food/grapes.svg",
+      "difficulty": "medium",
+      "tags": [
+        "葡萄",
+        "水果"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "orange",
+      "name": "橘子",
+      "category": "food",
+      "thumbnail": "drawings/food/orange.svg",
+      "lineArt": "drawings/food/orange.svg",
+      "difficulty": "medium",
+      "tags": [
+        "橘子",
+        "柳橙",
+        "水果"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "corn",
+      "name": "玉米",
+      "category": "food",
+      "thumbnail": "drawings/food/corn.svg",
+      "lineArt": "drawings/food/corn.svg",
+      "difficulty": "hard",
+      "tags": [
+        "玉米",
+        "蔬菜"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "carrot",
+      "name": "胡蘿蔔",
+      "category": "food",
+      "thumbnail": "drawings/food/carrot.svg",
+      "lineArt": "drawings/food/carrot.svg",
+      "difficulty": "easy",
+      "tags": [
+        "胡蘿蔔",
+        "紅蘿蔔",
+        "蔬菜"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "cake",
+      "name": "蛋糕",
+      "category": "food",
+      "thumbnail": "drawings/food/cake.svg",
+      "lineArt": "drawings/food/cake.svg",
+      "difficulty": "hard",
+      "tags": [
+        "蛋糕",
+        "生日",
+        "甜點",
+        "蠟燭"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "cupcake",
+      "name": "杯子蛋糕",
+      "category": "food",
+      "thumbnail": "drawings/food/cupcake.svg",
+      "lineArt": "drawings/food/cupcake.svg",
+      "difficulty": "easy",
+      "tags": [
+        "杯子蛋糕",
+        "蛋糕",
+        "甜點"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "ice-cream",
+      "name": "冰淇淋",
+      "category": "food",
+      "thumbnail": "drawings/food/ice-cream.svg",
+      "lineArt": "drawings/food/ice-cream.svg",
+      "difficulty": "easy",
+      "tags": [
+        "冰淇淋",
+        "甜筒",
+        "甜點",
+        "夏天"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "donut",
+      "name": "甜甜圈",
+      "category": "food",
+      "thumbnail": "drawings/food/donut.svg",
+      "lineArt": "drawings/food/donut.svg",
+      "difficulty": "easy",
+      "tags": [
+        "甜甜圈",
+        "甜點"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "cookies",
+      "name": "餅乾",
+      "category": "food",
+      "thumbnail": "drawings/food/cookies.svg",
+      "lineArt": "drawings/food/cookies.svg",
+      "difficulty": "easy",
+      "tags": [
+        "餅乾",
+        "點心",
+        "甜點"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "pizza",
+      "name": "披薩",
+      "category": "food",
+      "thumbnail": "drawings/food/pizza.svg",
+      "lineArt": "drawings/food/pizza.svg",
+      "difficulty": "hard",
+      "tags": [
+        "披薩",
+        "比薩"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "hamburger",
+      "name": "漢堡",
+      "category": "food",
+      "thumbnail": "drawings/food/hamburger.svg",
+      "lineArt": "drawings/food/hamburger.svg",
+      "difficulty": "easy",
+      "tags": [
+        "漢堡",
+        "速食"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "hot-dog",
+      "name": "熱狗",
+      "category": "food",
+      "thumbnail": "drawings/food/hot-dog.svg",
+      "lineArt": "drawings/food/hot-dog.svg",
+      "difficulty": "easy",
+      "tags": [
+        "熱狗",
+        "麵包",
+        "速食"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "rice-ball",
+      "name": "飯糰",
+      "category": "food",
+      "thumbnail": "drawings/food/rice-ball.svg",
+      "lineArt": "drawings/food/rice-ball.svg",
+      "difficulty": "easy",
+      "tags": [
+        "飯糰",
+        "日本料理",
+        "海苔"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "dumplings",
+      "name": "水餃",
+      "category": "food",
+      "thumbnail": "drawings/food/dumplings.svg",
+      "lineArt": "drawings/food/dumplings.svg",
+      "difficulty": "medium",
+      "tags": [
+        "水餃",
+        "餃子",
+        "筷子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "ramen",
+      "name": "拉麵",
+      "category": "food",
+      "thumbnail": "drawings/food/ramen.svg",
+      "lineArt": "drawings/food/ramen.svg",
+      "difficulty": "medium",
+      "tags": [
+        "拉麵",
+        "麵",
+        "日本料理"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-12"
+    },
+    {
+      "id": "sushi",
+      "name": "壽司",
+      "category": "food",
+      "thumbnail": "drawings/food/sushi.svg",
+      "lineArt": "drawings/food/sushi.svg",
+      "difficulty": "medium",
+      "tags": [
+        "壽司",
+        "日本料理"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-19"
+    },
+    {
+      "id": "student",
+      "name": "小學生",
+      "category": "people",
+      "thumbnail": "drawings/people/student.svg",
+      "lineArt": "drawings/people/student.svg",
+      "difficulty": "easy",
+      "tags": [
+        "小學生",
+        "學生",
+        "上學",
+        "書包"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "kindergartener",
+      "name": "幼兒園小朋友",
+      "category": "people",
+      "thumbnail": "drawings/people/kindergartener.svg",
+      "lineArt": "drawings/people/kindergartener.svg",
+      "difficulty": "easy",
+      "tags": [
+        "幼兒園",
+        "小朋友",
+        "蠟筆"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "teacher",
+      "name": "老師",
+      "category": "people",
+      "thumbnail": "drawings/people/teacher.svg",
+      "lineArt": "drawings/people/teacher.svg",
+      "difficulty": "medium",
+      "tags": [
+        "老師",
+        "黑板",
+        "學校",
+        "書"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "doctor",
+      "name": "醫生",
+      "category": "people",
+      "thumbnail": "drawings/people/doctor.svg",
+      "lineArt": "drawings/people/doctor.svg",
+      "difficulty": "easy",
+      "tags": [
+        "醫生",
+        "聽診器",
+        "醫院"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "nurse",
+      "name": "護理師",
+      "category": "people",
+      "thumbnail": "drawings/people/nurse.svg",
+      "lineArt": "drawings/people/nurse.svg",
+      "difficulty": "easy",
+      "tags": [
+        "護理師",
+        "護士",
+        "醫院"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "firefighter",
+      "name": "消防員",
+      "category": "people",
+      "thumbnail": "drawings/people/firefighter.svg",
+      "lineArt": "drawings/people/firefighter.svg",
+      "difficulty": "hard",
+      "tags": [
+        "消防員",
+        "消防",
+        "水管",
+        "救火"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "police-officer",
+      "name": "警察",
+      "category": "people",
+      "thumbnail": "drawings/people/police-officer.svg",
+      "lineArt": "drawings/people/police-officer.svg",
+      "difficulty": "medium",
+      "tags": [
+        "警察",
+        "警察帽",
+        "敬禮"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "chef",
+      "name": "廚師",
+      "category": "people",
+      "thumbnail": "drawings/people/chef.svg",
+      "lineArt": "drawings/people/chef.svg",
+      "difficulty": "medium",
+      "tags": [
+        "廚師",
+        "廚師帽",
+        "鍋鏟",
+        "煮飯"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "farmer",
+      "name": "農夫",
+      "category": "people",
+      "thumbnail": "drawings/people/farmer.svg",
+      "lineArt": "drawings/people/farmer.svg",
+      "difficulty": "hard",
+      "tags": [
+        "農夫",
+        "草帽",
+        "鋤頭",
+        "籃子"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "astronaut",
+      "name": "太空人",
+      "category": "people",
+      "thumbnail": "drawings/people/astronaut.svg",
+      "lineArt": "drawings/people/astronaut.svg",
+      "difficulty": "medium",
+      "tags": [
+        "太空人",
+        "太空",
+        "星星",
+        "宇宙"
+      ],
+      "popular": true,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "construction-worker",
+      "name": "建築工人",
+      "category": "people",
+      "thumbnail": "drawings/people/construction-worker.svg",
+      "lineArt": "drawings/people/construction-worker.svg",
+      "difficulty": "medium",
+      "tags": [
+        "建築工人",
+        "安全帽",
+        "扳手",
+        "工地"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "mail-carrier",
+      "name": "郵差",
+      "category": "people",
+      "thumbnail": "drawings/people/mail-carrier.svg",
+      "lineArt": "drawings/people/mail-carrier.svg",
+      "difficulty": "hard",
+      "tags": [
+        "郵差",
+        "信件",
+        "郵包",
+        "信封"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "gardener",
+      "name": "園丁",
+      "category": "people",
+      "thumbnail": "drawings/people/gardener.svg",
+      "lineArt": "drawings/people/gardener.svg",
+      "difficulty": "hard",
+      "tags": [
+        "園丁",
+        "澆水壺",
+        "花",
+        "花園"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "painter",
+      "name": "畫家",
+      "category": "people",
+      "thumbnail": "drawings/people/painter.svg",
+      "lineArt": "drawings/people/painter.svg",
+      "difficulty": "medium",
+      "tags": [
+        "畫家",
+        "調色盤",
+        "畫架",
+        "彩虹"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "musician",
+      "name": "音樂家",
+      "category": "people",
+      "thumbnail": "drawings/people/musician.svg",
+      "lineArt": "drawings/people/musician.svg",
+      "difficulty": "easy",
+      "tags": [
+        "音樂家",
+        "吉他",
+        "音符",
+        "音樂"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "dancer",
+      "name": "舞者",
+      "category": "people",
+      "thumbnail": "drawings/people/dancer.svg",
+      "lineArt": "drawings/people/dancer.svg",
+      "difficulty": "easy",
+      "tags": [
+        "舞者",
+        "芭蕾",
+        "跳舞",
+        "蓬蓬裙"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "athlete",
+      "name": "運動員",
+      "category": "people",
+      "thumbnail": "drawings/people/athlete.svg",
+      "lineArt": "drawings/people/athlete.svg",
+      "difficulty": "easy",
+      "tags": [
+        "運動員",
+        "足球",
+        "運動",
+        "球衣"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "explorer",
+      "name": "探險家",
+      "category": "people",
+      "thumbnail": "drawings/people/explorer.svg",
+      "lineArt": "drawings/people/explorer.svg",
+      "difficulty": "hard",
+      "tags": [
+        "探險家",
+        "望遠鏡",
+        "探險",
+        "冒險"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "wizard",
+      "name": "魔法師",
+      "category": "people",
+      "thumbnail": "drawings/people/wizard.svg",
+      "lineArt": "drawings/people/wizard.svg",
+      "difficulty": "medium",
+      "tags": [
+        "魔法師",
+        "魔杖",
+        "巫師",
+        "魔法"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "family-picnic",
+      "name": "家庭野餐的一家人",
+      "category": "people",
+      "thumbnail": "drawings/people/family-picnic.svg",
+      "lineArt": "drawings/people/family-picnic.svg",
+      "difficulty": "hard",
+      "tags": [
+        "野餐",
+        "家人",
+        "家庭",
+        "野餐籃"
+      ],
+      "popular": false,
+      "addedAt": "2026-11-11"
     }
   ]
 }

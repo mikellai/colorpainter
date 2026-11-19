@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M60 740 Q400 690 740 740 L740 760 L60 760 Z"/>
+<path d="M340 742 C370 690 375 600 372 500 L310 420 L338 405 L380 455 L385 360 L415 360 L420 450 L470 400 L495 420 L430 500 C428 600 432 690 462 742 Z"/>
+<path d="M614 302 Q633 357 575 387 Q558 442 488 445 Q440 485 379 459 Q312 475 274 427 Q207 413 204 357 Q154 318 186 268 Q167 213 225 183 Q242 128 312 125 Q360 85 421 111 Q488 95 526 143 Q593 157 596 213 Q646 252 614 302 Z"/>
+<path d="M366 438 Q361 472 310 478 Q266 497 227 474 Q178 463 181 429 Q162 397 205 378 Q232 348 282 358 Q334 353 354 385 Q391 409 366 438 Z"/>
+<path d="M620 420 Q631 453 584 468 Q551 495 504 480 Q452 480 439 447 Q407 420 439 393 Q452 360 504 360 Q551 345 584 372 Q631 387 620 420 Z"/>
+<g transform="translate(310 240) rotate(-15) scale(1.5)"><path d="M0 -48 L10 -24 L30 -34 L26 -10 L48 -14 L36 6 L46 14 L18 22 L20 36 L0 28 L-20 36 L-18 22 L-46 14 L-36 6 L-48 -14 L-26 -10 L-30 -34 L-10 -24 Z"/><path d="M0 28 L0 52" fill="none" stroke-width="3"/></g>
+<g transform="translate(490 225) rotate(15) scale(1.5)"><path d="M0 -48 L10 -24 L30 -34 L26 -10 L48 -14 L36 6 L46 14 L18 22 L20 36 L0 28 L-20 36 L-18 22 L-46 14 L-36 6 L-48 -14 L-26 -10 L-30 -34 L-10 -24 Z"/><path d="M0 28 L0 52" fill="none" stroke-width="3"/></g>
+<g transform="translate(400 318) rotate(0) scale(1.3)"><path d="M0 -48 L10 -24 L30 -34 L26 -10 L48 -14 L36 6 L46 14 L18 22 L20 36 L0 28 L-20 36 L-18 22 L-46 14 L-36 6 L-48 -14 L-26 -10 L-30 -34 L-10 -24 Z"/><path d="M0 28 L0 52" fill="none" stroke-width="4"/></g>
+<g transform="translate(150 590) rotate(-35) scale(1.3)"><path d="M0 -48 L10 -24 L30 -34 L26 -10 L48 -14 L36 6 L46 14 L18 22 L20 36 L0 28 L-20 36 L-18 22 L-46 14 L-36 6 L-48 -14 L-26 -10 L-30 -34 L-10 -24 Z"/><path d="M0 28 L0 52" fill="none" stroke-width="4"/></g>
+<g transform="translate(650 610) rotate(30) scale(1.3)"><path d="M0 -48 L10 -24 L30 -34 L26 -10 L48 -14 L36 6 L46 14 L18 22 L20 36 L0 28 L-20 36 L-18 22 L-46 14 L-36 6 L-48 -14 L-26 -10 L-30 -34 L-10 -24 Z"/><path d="M0 28 L0 52" fill="none" stroke-width="4"/></g>
+</g>
+</svg>

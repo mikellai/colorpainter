@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M210 760 Q400 700 590 760 Z"/>
+<path d="M386 380 L414 380 L418 740 L382 740 Z"/>
+<path d="M398 560 C330 500 250 510 215 545 C270 600 350 600 398 560 Z"/><path d="M398 560 C330 548 270 545 235 547" fill="none"/>
+<path d="M402 500 C470 440 550 450 585 485 C530 540 450 540 402 500 Z"/><path d="M402 500 C470 488 530 485 565 487" fill="none"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(0 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(25.7 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(51.4 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(77.1 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(102.9 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(128.6 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(154.3 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(180 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(205.7 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(231.4 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(257.1 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(282.9 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(308.6 400 280)"/>
+<path d="M400 205 C358 175 362 120 400 75 C438 120 442 175 400 205 Z" transform="rotate(334.3 400 280)"/>
+<circle cx="400" cy="280" r="92"/>
+<circle cx="400" cy="280" r="58"/>
+<circle cx="370 262" cy="" r="5" fill="#222" stroke="none"/>
+<circle cx="400 248" cy="" r="5" fill="#222" stroke="none"/>
+<circle cx="430 262" cy="" r="5" fill="#222" stroke="none"/>
+<circle cx="382 292" cy="" r="5" fill="#222" stroke="none"/>
+<circle cx="418 292" cy="" r="5" fill="#222" stroke="none"/>
+<circle cx="400 312" cy="" r="5" fill="#222" stroke="none"/>
+<circle cx="360 300" cy="" r="5" fill="#222" stroke="none"/>
+<circle cx="440 300" cy="" r="5" fill="#222" stroke="none"/>
+</g>
+</svg>

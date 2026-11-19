@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M60 690 L740 690" fill="none"/>
+<circle cx="400" cy="185" r="70"/>
+<path d="M382 140 L418 140 L418 167 L445 167 L445 203 L418 203 L418 230 L382 230 L382 203 L355 203 L355 167 L382 167 Z"/>
+<rect x="150" y="280" width="500" height="410"/>
+<rect x="130" y="255" width="540" height="35" rx="8"/>
+<rect x="190" y="320" width="90" height="80" rx="6"/>
+<rect x="355" y="320" width="90" height="80" rx="6"/>
+<rect x="520" y="320" width="90" height="80" rx="6"/>
+<rect x="190" y="440" width="90" height="80" rx="6"/>
+<rect x="520" y="440" width="90" height="80" rx="6"/>
+<rect x="190" y="570" width="90" height="80" rx="6"/>
+<rect x="520" y="570" width="90" height="80" rx="6"/>
+<path d="M235 320 L235 400 M400 320 L400 400 M565 320 L565 400 M235 440 L235 520 M565 440 L565 520 M235 570 L235 650 M565 570 L565 650" fill="none"/>
+<path d="M388 435 L412 435 L412 455 L432 455 L432 479 L412 479 L412 499 L388 499 L388 479 L368 479 L368 455 L388 455 Z"/>
+<rect x="345" y="565" width="110" height="125" rx="6"/>
+<path d="M400 565 L400 690" fill="none"/>
+<path d="M320 565 L480 565 L465 530 L335 530 Z"/>
+</g>
+</svg>

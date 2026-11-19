@@ -1,6 +1,6 @@
 # 線稿素材說明
 
-這個資料夾放所有塗色用的線稿，和網站程式分開管理。目前的 13 張示範圖都是本專案原創的簡單造型，可以自由替換。
+這個資料夾放所有塗色用的線稿，和網站程式分開管理。目前共 8 類、每類 20 張（共 160 張），都是本專案原創、線條清楚、背景簡單的兒童著色圖，可以自由替換。
 
 ## 資料夾結構
 
@@ -8,11 +8,13 @@
 drawings/
   drawings.json        圖庫資料（分類與圖案清單）
   animals/             動物
-  dinosaurs/           恐龍
-  ocean/               海洋生物
-  vehicles/            交通工具
-  fairytale/           童話角色
-  holidays/            節日主題
+  plants/              植物
+  scenery/             自然風景
+  stories/             故事
+  buildings/           建築
+  furniture/           家具
+  food/                食物
+  people/              人物
 ```
 
 ## 新增一張圖

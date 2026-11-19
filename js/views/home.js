@@ -41,7 +41,7 @@ export async function renderHome(main) {
           <label class="search-box">
             ${icon('search')}
             <span class="visually-hidden">搜尋圖案</span>
-            <input id="searchInput" type="search" placeholder="想畫什麼？例如：恐龍、貓" value="${escapeHTML(state.q)}" autocomplete="off" enterkeyhint="search">
+            <input id="searchInput" type="search" placeholder="想畫什麼？例如：獅子、城堡" value="${escapeHTML(state.q)}" autocomplete="off" enterkeyhint="search">
           </label>
         </form>
       </div>

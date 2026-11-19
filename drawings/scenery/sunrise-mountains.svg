@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M295 352 L268 345 M323 303 L303 283 M372 275 L365 248 M428 275 L435 248 M477 303 L497 283 M505 352 L532 345" fill="none"/>
+<circle cx="400" cy="380" r="95"/>
+<path d="M65 194Q41 156 89 151Q103 108 150 122Q184 94 217 132Q264 132 255 194Z"/>
+<path d="M555 170Q534 136 576 132Q589 94 632 107Q661 81 691 115Q734 115 725 170Z"/>
+<path d="M-20 660L220 300L480 660Z"/>
+<path d="M320 660L580 250L830 660Z"/>
+<path d="M220 300L268 365L245 352L222 376L200 350L177 362Z"/>
+<path d="M580 250L623 320L602 308L580 332L558 308L535 320Z"/>
+<path d="M-20 600Q200 555 400 610Q600 665 820 585V820H-20Z"/>
+<path d="M-20 700Q250 650 520 720Q680 760 820 700V820H-20Z"/>
+<path d="M308 215 Q319 201 330 215 Q341 201 352 215" fill="none" stroke-width="6"/>
+<path d="M452 200 Q461 189 470 200 Q479 189 488 200" fill="none" stroke-width="6"/>
+<path fill-rule="evenodd" d="M-20-20H820V820H-20Z M76 40H724A36 36 0 0 1 760 76V724A36 36 0 0 1 724 760H76A36 36 0 0 1 40 724V76A36 36 0 0 1 76 40Z"/>
+</g>
+</svg>

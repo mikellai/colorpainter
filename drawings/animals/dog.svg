@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M540 640 C620 640 680 560 690 480 C665 470 640 560 540 600 Z"/>
+<ellipse cx="400" cy="590" rx="150" ry="140"/>
+<ellipse cx="400" cy="620" rx="85" ry="95"/>
+<rect x="315" y="600" width="60" height="120" rx="28"/>
+<rect x="425" y="600" width="60" height="120" rx="28"/>
+<path d="M335 720 L335 700 M355 720 L355 700 M445 720 L445 700 M465 720 L465 700" fill="none"/>
+<rect x="300" y="440" width="200" height="36" rx="18"/>
+<circle cx="400" cy="490" r="24"/>
+<ellipse cx="400" cy="310" rx="150" ry="140"/>
+<path d="M330 250 C340 200 400 210 400 270 C400 330 340 340 325 300 Z"/>
+<path d="M270 210 C200 200 170 300 190 400 C200 440 250 440 260 400 C270 350 280 280 300 230 Z"/>
+<path d="M530 210 C600 200 630 300 610 400 C600 440 550 440 540 400 C530 350 520 280 500 230 Z"/>
+<ellipse cx="400" cy="375" rx="80" ry="58"/>
+<circle cx="352" cy="280" r="15" fill="#222"/><circle cx="347" cy="275" r="5" fill="#fff" stroke="none"/>
+<circle cx="448" cy="280" r="15" fill="#222"/><circle cx="443" cy="275" r="5" fill="#fff" stroke="none"/>
+<ellipse cx="400" cy="350" rx="30" ry="20" fill="#222"/>
+<path d="M400 370 L400 390 M365 392 Q382 410 400 390 Q418 410 435 392" fill="none"/>
+<path d="M385 400 L385 430 Q400 448 415 430 L415 400 Z"/>
+
+</g>
+</svg>

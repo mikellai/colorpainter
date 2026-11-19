@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="400" cy="400" r="340"/><circle cx="400" cy="400" r="300"/>
+<circle cx="400" cy="400" r="255"/>
+<path d="M610 400 Q641 465 582 505 Q577 577 505 582 Q465 641 400 610 Q335 641 295 582 Q223 577 218 505 Q159 465 190 400 Q159 335 218 295 Q223 223 295 218 Q335 159 400 190 Q465 159 505 218 Q577 223 582 295 Q641 335 610 400 Z"/>
+<circle cx="400" cy="400" r="100"/><circle cx="400" cy="400" r="70"/>
+<path d="M288 243 L312 257 M387 233 L413 223 M503 253 L517 277 M546 358 L574 362 M549 479 L571 461 M250 542 L274 528 M223 409 L241 431 M238 332 L252 308 M316 305 L344 305 M461 311 L479 289 " fill="none" stroke-width="9"/>
+<circle cx="355" cy="550" r="14" fill="#222"/><circle cx="350.1" cy="545.1" r="4.5" fill="#fff" stroke="none"/><circle cx="445" cy="550" r="14" fill="#222"/><circle cx="440.1" cy="545.1" r="4.5" fill="#fff" stroke="none"/>
+<path d="M380 572 Q400 590 420 572" fill="none"/>
+
+</g>
+</svg>

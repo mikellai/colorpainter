@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M115 156Q94 122 136 117Q149 79 192 92Q221 66 251 100Q294 100 285 156Z"/>
+<path d="M550 141Q532 113 568 110Q578 78 613 88Q638 68 662 96Q697 96 690 141Z"/>
+<path d="M-20 520Q300 470 820 530V820H-20Z"/>
+<rect x="420" y="380" width="260" height="180"/>
+<path d="M400 390L470 290H630L700 390Z"/>
+<path d="M400 390Q420 410 440 390Q470 415 500 390Q530 415 560 390Q590 415 620 390Q650 415 680 390Q690 405 700 390L630 290H470Z"/>
+<rect x="560" y="220" width="40" height="80" rx="3"/>
+<ellipse cx="580" cy="220" rx="30" ry="14"/>
+<rect x="450" y="440" width="60" height="120" rx="8"/>
+<rect x="560" y="430" width="80" height="64" rx="4"/>
+<path d="M600 430V494M560 462H640" fill="none" stroke-width="5"/>
+<rect x="104" y="510" width="32" height="60" rx="4"/>
+<path d="M45 520L120 412L195 520Z"/>
+<path d="M62 455L120 347L178 455Z"/>
+<path d="M78 390L120 282L162 390Z"/>
+<path d="M190 610L120 570M350 610L420 570" fill="none" stroke-width="7"/>
+<circle cx="270" cy="640" r="85"/>
+<circle cx="270" cy="510" r="62"/>
+<circle cx="250" cy="500" r="8" fill="#222"/>
+<circle cx="247" cy="497" r="3" fill="#fff" stroke="none"/>
+<circle cx="290" cy="500" r="8" fill="#222"/>
+<circle cx="287" cy="497" r="3" fill="#fff" stroke="none"/>
+<path d="M270 515L312 525L270 532Z"/>
+<rect x="212" y="552" width="116" height="30" rx="12"/>
+<circle cx="270" cy="630" r="7" fill="#222"/>
+<circle cx="270" cy="670" r="7" fill="#222"/>
+<path d="M370 204L379 224L401 222L388 240L401 258L379 256L370 276L361 256L339 258L352 240L339 222L361 224Z"/>
+<path d="M725 223L733 241L753 239L741 255L753 271L733 269L725 287L717 269L697 271L709 255L697 239L717 241Z"/>
+<path d="M345 348L353 366L373 364L361 380L373 396L353 394L345 412L337 394L317 396L329 380L317 364L337 366Z"/>
+<path d="M720 616L728 635L749 633L737 650L749 667L728 665L720 684L712 665L691 667L703 650L691 633L712 635Z"/>
+<path fill-rule="evenodd" d="M-20-20H820V820H-20Z M76 40H724A36 36 0 0 1 760 76V724A36 36 0 0 1 724 760H76A36 36 0 0 1 40 724V76A36 36 0 0 1 76 40Z"/>
+</g>
+</svg>

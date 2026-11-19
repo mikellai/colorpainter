@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M719 140 L741 140 M699 189 L714 204 M650 209 L650 231 M601 189 L586 204 M581 140 L559 140 M601 91 L586 76 M650 71 L650 49 M699 91 L714 76" fill="none"/>
+<circle cx="650" cy="140" r="55"/>
+<path d="M135 166Q114 132 156 127Q169 89 212 102Q241 76 271 110Q314 110 305 166Z"/>
+<path d="M-20 420Q250 330 520 410Q680 450 820 400V820H-20Z"/>
+<path d="M-20 520Q300 460 820 540V820H-20Z"/>
+<path d="M190 740V480" fill="none" stroke-width="7"/>
+<path d="M190 700Q250 680 250 635Q205 660 190 700Z"/>
+<ellipse transform="rotate(0 190 480)" cx="190" cy="428" rx="22" ry="30"/>
+<ellipse transform="rotate(60 190 480)" cx="190" cy="428" rx="22" ry="30"/>
+<ellipse transform="rotate(120 190 480)" cx="190" cy="428" rx="22" ry="30"/>
+<ellipse transform="rotate(180 190 480)" cx="190" cy="428" rx="22" ry="30"/>
+<ellipse transform="rotate(240 190 480)" cx="190" cy="428" rx="22" ry="30"/>
+<ellipse transform="rotate(300 190 480)" cx="190" cy="428" rx="22" ry="30"/>
+<circle cx="190" cy="480" r="30"/>
+<path d="M560 740V520" fill="none" stroke-width="7"/>
+<path d="M560 700Q620 680 620 635Q575 660 560 700Z"/>
+<ellipse transform="rotate(0 560 520)" cx="560" cy="473" rx="20" ry="27"/>
+<ellipse transform="rotate(60 560 520)" cx="560" cy="473" rx="20" ry="27"/>
+<ellipse transform="rotate(120 560 520)" cx="560" cy="473" rx="20" ry="27"/>
+<ellipse transform="rotate(180 560 520)" cx="560" cy="473" rx="20" ry="27"/>
+<ellipse transform="rotate(240 560 520)" cx="560" cy="473" rx="20" ry="27"/>
+<ellipse transform="rotate(300 560 520)" cx="560" cy="473" rx="20" ry="27"/>
+<circle cx="560" cy="520" r="27"/>
+<path d="M380 740V610" fill="none" stroke-width="7"/>
+<path d="M380 710Q320 685 322 635Q365 675 380 710Z"/>
+<path d="M334 550Q334 625 380 625Q426 625 426 550L403 572L380 542L357 572Z"/>
+<path d="M700 740V650" fill="none" stroke-width="7"/>
+<path d="M700 710Q640 685 642 635Q685 675 700 710Z"/>
+<path d="M660 590Q660 665 700 665Q740 665 740 590L720 612L700 582L680 612Z"/>
+<g transform="translate(130 300) scale(1.6) translate(-130 -325)"><path d="M100 330Q70 290 105 285Q125 285 130 320Q135 285 155 285Q190 290 160 330Q185 360 155 362Q135 360 130 335Q125 360 105 362Q75 360 100 330Z" stroke-width="4.5"/>
+<path d="M130 318V342" fill="none" stroke-width="4.5"/>
+</g>
+<path fill-rule="evenodd" d="M-20-20H820V820H-20Z M76 40H724A36 36 0 0 1 760 76V724A36 36 0 0 1 724 760H76A36 36 0 0 1 40 724V76A36 36 0 0 1 76 40Z"/>
+</g>
+</svg>

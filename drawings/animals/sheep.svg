@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<rect x="300" y="540" width="42" height="170" rx="16"/>
+<rect x="300" y="690" width="42" height="30" rx="10" fill="#222"/>
+<rect x="520" y="540" width="42" height="170" rx="16"/>
+<rect x="520" y="690" width="42" height="30" rx="10" fill="#222"/>
+<path d="M688 430 A17 17 0 0 1 674 457 A18 18 0 0 1 642 463 A17 17 0 0 1 616 445 A16 16 0 0 1 616 415 A17 17 0 0 1 642 397 A18 18 0 0 1 674 403 A17 17 0 0 1 688 430 Z"/>
+<path d="M670 470 A28 28 0 0 1 656 520 A33 33 0 0 1 616 563 A38 38 0 0 1 555 596 A42 42 0 0 1 480 613 A44 44 0 0 1 400 613 A42 42 0 0 1 325 596 A38 38 0 0 1 264 563 A33 33 0 0 1 224 520 A28 28 0 0 1 210 470 A28 28 0 0 1 224 420 A33 33 0 0 1 264 377 A38 38 0 0 1 325 344 A42 42 0 0 1 400 327 A44 44 0 0 1 480 327 A42 42 0 0 1 555 344 A38 38 0 0 1 616 377 A33 33 0 0 1 656 420 A28 28 0 0 1 670 470 Z"/>
+<rect x="250" y="570" width="42" height="160" rx="16"/>
+<rect x="250" y="710" width="42" height="30" rx="10" fill="#222"/>
+<rect x="470" y="570" width="42" height="160" rx="16"/>
+<rect x="470" y="710" width="42" height="30" rx="10" fill="#222"/>
+<ellipse cx="150" cy="350" rx="55" ry="24" transform="rotate(-25 150 350)"/>
+<ellipse cx="330" cy="350" rx="55" ry="24" transform="rotate(25 330 350)"/>
+<ellipse cx="240" cy="390" rx="85" ry="100"/>
+<path d="M320 305 A19 19 0 0 1 301 332 A28 28 0 0 1 254 346 A31 31 0 0 1 200 341 A24 24 0 0 1 165 319 A17 17 0 0 1 165 291 A24 24 0 0 1 200 269 A31 31 0 0 1 254 264 A28 28 0 0 1 301 278 A19 19 0 0 1 320 305 Z"/>
+<circle cx="208" cy="390" r="14" fill="#222"/><circle cx="203" cy="385" r="5" fill="#fff" stroke="none"/>
+<circle cx="272" cy="390" r="14" fill="#222"/><circle cx="267" cy="385" r="5" fill="#fff" stroke="none"/>
+<ellipse cx="240" cy="455" rx="45" ry="30"/>
+<ellipse cx="225" cy="450" rx="7" ry="9" fill="#222"/><ellipse cx="255" cy="450" rx="7" ry="9" fill="#222"/>
+<path d="M225 470 Q240 478 255 470" fill="none"/>
+</g>
+</svg>

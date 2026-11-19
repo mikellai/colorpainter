@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M392 250 C390 200 378 160 360 120 C372 108 392 110 400 120 C415 160 422 205 420 250 Z"/>
+<path d="M385 185 C330 120 250 120 210 150 C250 205 330 215 385 185 Z"/>
+<path d="M410 175 C450 95 560 90 620 130 C590 175 550 175 560 215 C510 230 450 215 410 175 Z"/>
+<path d="M385 185 C330 120 250 120 210 150 C250 205 330 215 385 185 Z"/>
+<path d="M410 175 C480 150 540 140 620 130" fill="none" stroke-width="5"/>
+<circle cx="400" cy="615" r="68"/><circle cx="461" cy="510" r="68"/><circle cx="339" cy="510" r="68"/><circle cx="522" cy="405" r="68"/><circle cx="400" cy="405" r="68"/><circle cx="278" cy="405" r="68"/><circle cx="583" cy="300" r="68"/><circle cx="461" cy="300" r="68"/><circle cx="339" cy="300" r="68"/><circle cx="217" cy="300" r="68"/>
+<path d="M177 285 Q182 262 202 255 M299 285 Q304 262 324 255 M421 285 Q426 262 446 255 M543 285 Q548 262 568 255 M238 390 Q243 367 263 360 M360 390 Q365 367 385 360 M482 390 Q487 367 507 360 M299 495 Q304 472 324 465 M421 495 Q426 472 446 465 M360 600 Q365 577 385 570 " fill="none" stroke-width="5"/>
+<circle cx="372" cy="395" r="11" fill="#222"/><circle cx="368.1" cy="391.1" r="3.5" fill="#fff" stroke="none"/><circle cx="428" cy="395" r="11" fill="#222"/><circle cx="424.1" cy="391.1" r="3.5" fill="#fff" stroke="none"/>
+<path d="M383 425 Q400 442 417 425" fill="none" stroke-width="6"/>
+
+</g>
+</svg>

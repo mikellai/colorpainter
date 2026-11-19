@@ -248,11 +248,13 @@ main { position: relative; z-index: 1; outline: none; }
   font-size: 14px; background: var(--lilac-soft); color: var(--ink);
 }
 .tag-animals { background: var(--coral-soft); }
-.tag-dinosaurs { background: var(--grass-soft); }
-.tag-ocean { background: var(--sky-soft); }
-.tag-vehicles { background: var(--sun-soft); }
-.tag-fairytale { background: var(--lilac-soft); }
-.tag-holidays { background: var(--pink-soft); }
+.tag-plants { background: var(--grass-soft); }
+.tag-scenery { background: var(--sky-soft); }
+.tag-stories { background: var(--lilac-soft); }
+.tag-buildings { background: var(--sun-soft); }
+.tag-furniture { background: var(--coral-soft); }
+.tag-food { background: var(--pink-soft); }
+.tag-people { background: var(--sky-soft); }
 .level { font-size: 14px; color: var(--ink-soft); white-space: nowrap; }
 .level .stars { color: #e9a400; letter-spacing: 1px; }
 

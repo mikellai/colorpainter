@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M60 700 L740 700" fill="none"/>
+<path d="M90 230 C90 200 135 192 152 212 C168 185 220 190 220 225 C245 225 245 255 220 255 L100 255 C75 255 75 230 90 230 Z"/>
+<path d="M580 260 C580 230 625 222 642 242 C658 215 710 220 710 255 C735 255 735 285 710 285 L590 285 C565 285 565 260 580 260 Z"/>
+<path d="M400 60 L400 35" fill="none"/>
+<circle cx="400" cy="30" r="9" fill="#222"/>
+<path d="M372 120 L400 60 L428 120 Z"/>
+<rect x="345" y="115" width="110" height="75"/>
+<circle cx="400" cy="152" r="20"/>
+<rect x="300" y="185" width="200" height="515"/>
+<rect x="320" y="210" width="70" height="62" rx="6"/><rect x="410" y="210" width="70" height="62" rx="6"/>
+<rect x="320" y="292" width="70" height="62" rx="6"/><rect x="410" y="292" width="70" height="62" rx="6"/>
+<rect x="320" y="374" width="70" height="62" rx="6"/><rect x="410" y="374" width="70" height="62" rx="6"/>
+<rect x="320" y="456" width="70" height="62" rx="6"/><rect x="410" y="456" width="70" height="62" rx="6"/>
+<rect x="320" y="538" width="70" height="62" rx="6"/><rect x="410" y="538" width="70" height="62" rx="6"/>
+<rect x="355" y="620" width="90" height="80" rx="6"/>
+<path d="M400 620 L400 700" fill="none"/>
+<rect x="120" y="480" width="180" height="220"/>
+<rect x="110" y="465" width="200" height="25" rx="5"/>
+<rect x="145" y="520" width="55" height="60" rx="6"/><rect x="220" y="520" width="55" height="60" rx="6"/>
+<rect x="145" y="610" width="55" height="60" rx="6"/><rect x="220" y="610" width="55" height="60" rx="6"/>
+<rect x="500" y="400" width="180" height="300"/>
+<path d="M500 400 L590 345 L680 400 Z"/>
+<rect x="525" y="430" width="55" height="60" rx="6"/><rect x="600" y="430" width="55" height="60" rx="6"/>
+<rect x="525" y="520" width="55" height="60" rx="6"/><rect x="600" y="520" width="55" height="60" rx="6"/>
+<rect x="525" y="610" width="55" height="60" rx="6"/><rect x="600" y="610" width="55" height="60" rx="6"/>
+</g>
+</svg>

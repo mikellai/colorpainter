@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M719 150 L743 150 M696 206 L713 223 M640 229 L640 253 M584 206 L567 223 M561 150 L537 150 M584 94 L567 77 M640 71 L640 47 M696 94 L713 77" fill="none"/>
+<circle cx="640" cy="150" r="65"/>
+<path d="M135 176Q114 142 156 137Q169 99 212 112Q241 86 271 120Q314 120 305 176Z"/>
+<path d="M-20 380H820V820H-20Z"/>
+<path d="M400 455V300" fill="none" stroke-width="6"/>
+<path d="M406 305L406 440L475 440Z"/>
+<path d="M394 330L394 440L340 440Z"/>
+<path d="M325 450L475 450L450 492L350 492Z"/>
+<path d="M-20 540Q60 510 140 540Q220 570 300 540Q380 510 460 540Q540 570 620 540Q700 510 820 540V820H-20Z"/>
+<path d="M110 440Q140 425 170 440M600 470Q630 455 660 470M650 410Q680 395 710 410" fill="none" stroke-width="6"/>
+<path d="M250 720L250 540" fill="none" stroke-width="10"/>
+<path d="M80 560Q250 380 420 560Q390 540 363 560Q335 535 307 560Q279 535 250 560Q221 535 193 560Q165 535 137 560Q109 540 80 560Z"/>
+<path d="M250 432Q195 470 193 560M250 432Q305 470 307 560" fill="none" stroke-width="6"/>
+<circle cx="560" cy="650" r="55"/>
+<path d="M505 650Q560 608 615 650M560 595Q528 650 560 705" fill="none" stroke-width="6"/>
+<path d="M148 646L156 674L185 684L160 701L160 730L136 712L108 721L118 693L100 669L130 670Z"/>
+<path fill-rule="evenodd" d="M-20-20H820V820H-20Z M76 40H724A36 36 0 0 1 760 76V724A36 36 0 0 1 724 760H76A36 36 0 0 1 40 724V76A36 36 0 0 1 76 40Z"/>
+</g>
+</svg>

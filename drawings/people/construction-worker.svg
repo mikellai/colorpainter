@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M120 692 L152 500 Q165 482 178 500 L210 692 Z"/>
+<path d="M138 600 L192 600 M130 645 L200 645" fill="none" stroke-width="6"/>
+<rect x="90" y="685" width="150" height="36" rx="8"/>
+<g transform="translate(0 42)"><ellipse cx="545" cy="300" rx="32" ry="58" transform="rotate(-15 545 300)"/></g>
+<rect x="340" y="590" width="52" height="110" rx="20"/>
+<rect x="408" y="590" width="52" height="110" rx="20"/>
+<ellipse cx="338" cy="712" rx="48" ry="26"/>
+<ellipse cx="462" cy="712" rx="48" ry="26"/>
+<rect x="340" y="560" width="120" height="60" rx="12"/>
+<path d="M314 590 Q308 470 334 412 Q400 378 466 412 Q492 470 486 590 Z"/>
+<path d="M362 404 L400 470 L438 404 Q400 392 362 404 Z"/>
+<path d="M400 470 L400 590" fill="none" stroke-width="5"/>
+<path d="M311 505 L489 505 M310 540 L490 540" fill="none" stroke-width="6"/>
+<rect x="-24" y="-24" width="48" height="192.1" rx="24" transform="translate(338 433) rotate(15.3)"/>
+<circle cx="298" cy="574" r="27"/>
+<rect x="-24" y="-24" width="48" height="157" rx="24" transform="translate(462 433) rotate(-52.1)"/>
+<g transform="translate(612 318) rotate(20)"><rect x="-16" y="-16" width="32" height="202" rx="16" transform="translate(0 40) rotate(0)"/>
+<path d="M14 -32 A38 38 0 1 1 -14 -32 L-14 -6 L14 -6 Z"/>
+<circle cx="0" cy="190" r="7" fill="#222"/></g>
+<circle cx="548" cy="500" r="28"/>
+<g transform="translate(0 42)"><circle cx="400" cy="245" r="120"/>
+<circle cx="356.8" cy="275" r="12.6" fill="#222"/><circle cx="352.4" cy="270.6" r="4" fill="#fff" stroke="none"/><circle cx="443.2" cy="275" r="12.6" fill="#222"/><circle cx="438.8" cy="270.6" r="4" fill="#fff" stroke="none"/><path d="M373.6 311 Q400 339.8 426.4 311" fill="none"/>
+<path d="M272 206 Q276 90 400 86 Q524 90 528 206 Z"/>
+<rect x="378" y="86" width="44" height="120" rx="10"/>
+<rect x="250" y="194" width="300" height="34" rx="16"/></g>
+
+</g>
+</svg>

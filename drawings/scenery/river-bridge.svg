@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<rect width="800" height="800" fill="#fff"/>
+<g fill="#fff" stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M224 140 L244 140 M205 185 L219 199 M160 204 L160 224 M115 185 L101 199 M96 140 L76 140 M115 95 L101 81 M160 76 L160 56 M205 95 L219 81" fill="none"/>
+<circle cx="160" cy="140" r="50"/>
+<path d="M520 154Q500 122 540 118Q552 82 592 94Q620 70 648 102Q688 102 680 154Z"/>
+<path d="M-20 400Q250 290 480 380Q650 320 820 390V820H-20Z"/>
+<path d="M-20 420H820V820H-20Z"/>
+<path d="M360 420Q390 418 420 420Q470 480 440 520Q380 580 450 660Q520 740 540 820H200Q250 740 280 660Q300 580 330 520Q370 470 360 420Z"/>
+<path d="M140 560V510Q400 420 660 510V560Q400 470 140 560Z"/>
+<path d="M270 476V526M400 465V515M530 476V526" fill="none" stroke-width="6"/>
+<path d="M140 560Q400 470 660 560V640H560Q555 545 400 545Q245 545 240 640H140Z"/>
+<rect x="96" y="355" width="28" height="85" rx="6"/>
+<circle cx="110" cy="336" r="55"/>
+<rect x="676" y="355" width="28" height="85" rx="6"/>
+<circle cx="690" cy="336" r="55"/>
+<ellipse cx="150" cy="700" rx="60" ry="28"/>
+<ellipse cx="650" cy="710" rx="55" ry="26"/>
+<path d="M310 730Q340 715 370 730M420 680Q450 665 480 680" fill="none" stroke-width="6"/>
+<path fill-rule="evenodd" d="M-20-20H820V820H-20Z M76 40H724A36 36 0 0 1 760 76V724A36 36 0 0 1 724 760H76A36 36 0 0 1 40 724V76A36 36 0 0 1 76 40Z"/>
+</g>
+</svg>
