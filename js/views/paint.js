@@ -9,6 +9,7 @@ const PALETTE = [
   ['#4cc9f0', '天空藍'], ['#3a86ff', '藍色'], ['#3f37c9', '深藍色'], ['#9b5de5', '紫色'], ['#f15bb5', '桃紅色'], ['#ffafcc', '粉紅色'],
   ['#8d5524', '咖啡色'], ['#f6c89f', '膚色'], ['#ffe5b4', '杏色'], ['#adb5bd', '灰色'], ['#222222', '黑色'], ['#ffffff', '白色'],
 ];
+const MY_MAX = 6; // 「我的顏色」一排 6 格
 const BACKGROUNDS = [
   ['#ffffff', '白色'], ['#fff6d6', '奶油黃'], ['#e0f4ff', '天空藍'], ['#ffe8f1', '粉紅'], ['#e3f8e8', '薄荷綠'],
 ];
@@ -97,6 +98,13 @@ export async function renderPaint(main, { drawingId, workId }) {
           <input type="color" id="customColor" value="${st.color}">
           <span>自己調顏色</span>
         </label>
+        <div class="my-colors">
+          <div class="my-colors-head">
+            <span class="my-colors-title">⭐ 我的顏色</span>
+            <button class="btn btn-small btn-pink" id="saveColorBtn" type="button" title="把目前的顏色存到「我的顏色」">${icon('save')} 存起來</button>
+          </div>
+          <div class="my-swatches" id="mySwatches" role="group" aria-label="我的顏色（最多 ${MY_MAX} 個）"></div>
+        </div>
       </section>
 
       <section class="panel" aria-labelledby="sizeTitle" id="sizePanel">
@@ -196,6 +204,29 @@ export async function renderPaint(main, { drawingId, workId }) {
     if (st.tool === 'eraser' || st.tool === 'hand') setTool(st.tool === 'eraser' ? 'brush' : 'fill');
     if (announce) setTip(`選好${known ? known[1] : '新顏色'}了！${st.tool === 'fill' ? '點一下想塗的地方吧！' : '開始畫吧！'}`);
   };
+  // ---------- 我的顏色（自己調的顏色，存在 localStorage） ----------
+  const isHex = v => typeof v === 'string' && /^#[0-9a-f]{6}$/.test(v);
+  let myColors = settings.get('myColors', []);
+  myColors = Array.isArray(myColors) ? myColors.filter(isHex).slice(0, MY_MAX) : [];
+  const renderMyColors = () => {
+    $('#mySwatches').innerHTML = Array.from({ length: MY_MAX }, (_, i) => {
+      const hex = myColors[i];
+      return hex
+        ? `<button class="swatch" type="button" data-color="${hex}" style="background:${hex}" aria-label="我的顏色 ${i + 1}" title="我的顏色 ${i + 1}" aria-pressed="${hex === st.color}"></button>`
+        : `<button class="swatch swatch-empty" type="button" data-empty aria-label="空格：把目前顏色存到這裡" title="把目前顏色存到這裡">+</button>`;
+    }).join('');
+  };
+  const saveMyColor = () => {
+    const hex = st.color;
+    if (!isHex(hex)) return;
+    if (myColors.includes(hex)) { toast('這個顏色已經存過了喔'); return; }
+    // 新顏色放最前面，滿 6 個時擠掉最舊的
+    myColors = [hex, ...myColors].slice(0, MY_MAX);
+    settings.set('myColors', myColors);
+    renderMyColors();
+    setTip('顏色存起來了！下次也可以用喔！');
+  };
+
   const setSize = (v) => {
     st.size = Math.max(4, Math.min(80, Number(v)));
     settings.set('size', st.size);
@@ -413,6 +444,13 @@ export async function renderPaint(main, { drawingId, workId }) {
     const b = e.target.closest('.swatch');
     if (b) setColor(b.dataset.color);
   });
+  $('#mySwatches').addEventListener('click', e => {
+    const b = e.target.closest('.swatch');
+    if (!b) return;
+    if (b.hasAttribute('data-empty')) saveMyColor();
+    else setColor(b.dataset.color);
+  });
+  $('#saveColorBtn').addEventListener('click', saveMyColor);
   $('#customColor').addEventListener('input', e => setColor(e.target.value, false));
   $('#customColor').addEventListener('change', e => setColor(e.target.value));
   $('#sizeRange').addEventListener('input', e => setSize(e.target.value));
@@ -536,6 +574,7 @@ export async function renderPaint(main, { drawingId, workId }) {
 
   // ---------- 初始化 ----------
   setTool('fill');
+  renderMyColors();
   setColor(st.color, false);
   setSize(st.size);
   syncBg();

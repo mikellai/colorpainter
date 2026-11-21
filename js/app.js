@@ -48,7 +48,7 @@ async function route(e) {
     else await renderHome(main);
     if (token !== renderToken) { view?.destroy?.(); return; }
     current = view;
-    document.title = r.page === 'paint' ? '塗色中｜彩虹塗色樂園' : r.page === 'works' ? '我的作品｜彩虹塗色樂園' : '彩虹塗色樂園';
+    document.title = r.page === 'paint' ? '塗色中｜彩色塗鴉樂園' : r.page === 'works' ? '我的作品｜彩色塗鴉樂園' : '彩色塗鴉樂園';
     if (e) main.focus({ preventScroll: true });
   } catch (err) {
     console.error(err);

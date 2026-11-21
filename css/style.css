@@ -1,4 +1,4 @@
-/* ===== 彩虹塗色樂園 ===== */
+/* ===== 彩色塗鴉樂園 ===== */
 :root {
   --sky: #7fd3f7;
   --sky-soft: #e3f5fd;
@@ -102,6 +102,19 @@ body.is-painting { background: var(--sky-soft); }
   max-width: 1240px; margin: 0 auto;
 }
 body.is-painting .site-header { display: none; }
+
+/* ===== 頁尾 ===== */
+.site-footer {
+  position: relative; z-index: 1; text-align: center;
+  margin-top: 32px; padding: 24px 16px calc(28px + env(safe-area-inset-bottom));
+  border-top: 3px dashed var(--line); color: var(--ink-soft);
+}
+.footer-title { margin: 0 0 12px; font-size: 18px; color: var(--ink); }
+.footer-links {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px;
+  margin: 0; padding: 0; list-style: none; font-size: 16px;
+}
+body.is-painting .site-footer { display: none; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 .brand-logo {
   display: grid; place-items: center; width: 48px; height: 48px; font-size: 28px;
@@ -402,6 +415,15 @@ main { position: relative; z-index: 1; outline: none; }
 .custom-color input[type="color"]::-webkit-color-swatch-wrapper { padding: 0; }
 .custom-color input[type="color"]::-webkit-color-swatch { border: 3px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px var(--line); }
 .custom-color input[type="color"]::-moz-color-swatch { border: 3px solid #fff; border-radius: 50%; }
+
+.my-colors { margin-top: 12px; }
+.my-colors-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.my-colors-title { font-weight: 800; font-size: 16px; }
+.my-swatches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+.swatch-empty {
+  background: var(--bg); border: 3px dashed var(--line); color: var(--ink-soft);
+  font-size: 20px; font-weight: 900; line-height: 1; cursor: pointer;
+}
 
 .size-row { display: flex; align-items: center; gap: 12px; }
 .size-row input[type="range"] { flex: 1; accent-color: #f0a500; height: 36px; }
