@@ -206,25 +206,43 @@ export async function renderPaint(main, { drawingId, workId }) {
   };
   // ---------- 我的顏色（自己調的顏色，存在 localStorage） ----------
   const isHex = v => typeof v === 'string' && /^#[0-9a-f]{6}$/.test(v);
-  let myColors = settings.get('myColors', []);
-  myColors = Array.isArray(myColors) ? myColors.filter(isHex).slice(0, MY_MAX) : [];
+  // 固定 6 格，每格是顏色或 null（空格），顏色存進去後位置就不會再變動
+  const saved = settings.get('myColors', []);
+  let myColors = Array.from({ length: MY_MAX }, (_, i) => (Array.isArray(saved) && isHex(saved[i]) ? saved[i] : null));
+  const storeMyColors = () => settings.set('myColors', myColors);
+  let editSlot = null; // 目前選中的「我的顏色」格子；調完顏色按「存起來」會換掉這一格
   const renderMyColors = () => {
     $('#mySwatches').innerHTML = Array.from({ length: MY_MAX }, (_, i) => {
       const hex = myColors[i];
       return hex
-        ? `<button class="swatch" type="button" data-color="${hex}" style="background:${hex}" aria-label="我的顏色 ${i + 1}" title="我的顏色 ${i + 1}" aria-pressed="${hex === st.color}"></button>`
-        : `<button class="swatch swatch-empty" type="button" data-empty aria-label="空格：把目前顏色存到這裡" title="把目前顏色存到這裡">+</button>`;
+        ? `<div class="my-slot${i === editSlot ? ' is-editing' : ''}"><button class="swatch" type="button" data-color="${hex}" style="background:${hex}" aria-label="我的顏色 ${i + 1}" title="我的顏色 ${i + 1}" aria-pressed="${hex === st.color}"></button><button class="my-del" type="button" data-del="${i}" aria-label="刪除我的顏色 ${i + 1}" title="刪除這個顏色">×</button></div>`
+        : `<div class="my-slot${i === editSlot ? ' is-editing' : ''}"><button class="swatch swatch-empty" type="button" data-empty="${i}" aria-label="空格 ${i + 1}：選這一格，調好顏色再按「存起來」" title="選這一格，調好顏色再按「存起來」">+</button></div>`;
     }).join('');
   };
-  const saveMyColor = () => {
+  // 存到指定格子；沒指定時，有選中的格子就換掉它，否則存到第一個空格。其他顏色都留在原位
+  const saveMyColor = (slot) => {
     const hex = st.color;
     if (!isHex(hex)) return;
-    if (myColors.includes(hex)) { toast('這個顏色已經存過了喔'); return; }
-    // 新顏色放最前面，滿 6 個時擠掉最舊的
-    myColors = [hex, ...myColors].slice(0, MY_MAX);
-    settings.set('myColors', myColors);
+    const i = slot ?? editSlot ?? myColors.indexOf(null);
+    if (i < 0) { toast('格子滿了，先點一格再調顏色，按「存起來」就能換掉它'); return; }
+    if (myColors[i] === hex) { toast('這一格已經是這個顏色了喔'); return; }
+    const dup = myColors.indexOf(hex);
+    if (dup >= 0) { toast(`這個顏色已經存在第 ${dup + 1} 格了，換個顏色試試看`); return; }
+    const replaced = myColors[i] !== null;
+    myColors[i] = hex;
+    editSlot = i;
+    storeMyColors();
     renderMyColors();
-    setTip('顏色存起來了！下次也可以用喔！');
+    setTip(replaced ? '這一格換成新顏色了！' : '顏色存起來了！下次也可以用喔！');
+  };
+
+  const deleteMyColor = (i) => {
+    myColors[i] = null; // 留下空格，其他顏色不移動
+    if (editSlot === i) editSlot = null;
+    storeMyColors();
+    renderMyColors();
+    toast('顏色刪掉了');
+    setTip('刪掉了！可以再存一個新顏色喔！');
   };
 
   const setSize = (v) => {
@@ -445,12 +463,25 @@ export async function renderPaint(main, { drawingId, workId }) {
     if (b) setColor(b.dataset.color);
   });
   $('#mySwatches').addEventListener('click', e => {
-    const b = e.target.closest('.swatch');
+    const del = e.target.closest('.my-del');
+    if (del) { deleteMyColor(Number(del.dataset.del)); return; }
+    // 圓形色票的四個角落也算點到這一格（整個方格都可以點）
+    const slot = e.target.closest('.my-slot');
+    const b = slot ? slot.querySelector('.swatch') : e.target.closest('.swatch');
     if (!b) return;
-    if (b.hasAttribute('data-empty')) saveMyColor();
-    else setColor(b.dataset.color);
+    if (b.hasAttribute('data-empty')) {
+      // 空格：先選起來，調好顏色後按「存起來」才存進這一格
+      editSlot = Number(b.dataset.empty);
+      renderMyColors();
+      setTip(`選好第 ${editSlot + 1} 格了！調好顏色，再按「存起來」。`);
+      return;
+    }
+    editSlot = Number(b.closest('.my-slot').querySelector('.my-del').dataset.del);
+    renderMyColors();
+    setColor(b.dataset.color, false);
+    setTip(`選好第 ${editSlot + 1} 格了！想換顏色就調一個新的，再按「存起來」。`);
   });
-  $('#saveColorBtn').addEventListener('click', saveMyColor);
+  $('#saveColorBtn').addEventListener('click', () => saveMyColor());
   $('#customColor').addEventListener('input', e => setColor(e.target.value, false));
   $('#customColor').addEventListener('change', e => setColor(e.target.value));
   $('#sizeRange').addEventListener('input', e => setSize(e.target.value));
