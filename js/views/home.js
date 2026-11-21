@@ -33,7 +33,7 @@ export async function renderHome(main) {
         <div class="hero-guide">
           <div class="mascot">${mascotSVG()}</div>
           <div class="speech">
-            <h1 id="heroTitle">${rainbow('一起來塗色吧！')}</h1>
+            <h1 id="heroTitle">${rainbow('一起來塗鴉吧！')}</h1>
             <p class="hero-sub">嗨！我是彩彩熊。選一張喜歡的圖，開始上色吧！</p>
           </div>
         </div>
