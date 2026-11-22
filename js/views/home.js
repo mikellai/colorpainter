@@ -2,7 +2,14 @@ import { loadCatalog, searchDrawings, DIFFICULTY } from '../catalog.js';
 import { icon } from '../icons.js';
 import { mascotSVG, escapeHTML, motionEnabled } from '../ui.js';
 
-const state = { q: '', category: 'all', featuredId: null };
+// category: null = 首頁預設（熱門＋最新），'all' = 全部圖案，其他 = 指定分類
+const state = { q: '', category: null, featuredId: null };
+
+/** 清除分類與搜尋，回到首頁預設畫面（熱門＋最新） */
+export function resetHomeFilters() {
+  state.q = '';
+  state.category = null;
+}
 
 export function drawingCard(d) {
   const lv = DIFFICULTY[d.difficulty] || DIFFICULTY.easy;
@@ -66,10 +73,10 @@ export async function renderHome(main) {
 
   const results = main.querySelector('#results');
   const renderResults = () => {
-    const filtering = state.q.trim() || state.category !== 'all';
+    const filtering = state.q.trim() || state.category !== null;
     if (filtering) {
-      const list = searchDrawings(cat.drawings, state);
-      const catName = state.category === 'all' ? '' : cat.categories.find(c => c.id === state.category)?.name;
+      const list = searchDrawings(cat.drawings, { q: state.q, category: state.category ?? 'all' });
+      const catName = state.category === 'all' ? '全部圖案' : cat.categories.find(c => c.id === state.category)?.name || '';
       const title = state.q.trim() ? `「${escapeHTML(state.q.trim())}」的搜尋結果` : `${escapeHTML(catName)}`;
       results.innerHTML = list.length ? `
         <section class="section" aria-labelledby="resTitle">
@@ -83,14 +90,14 @@ export async function renderHome(main) {
           <button class="btn btn-primary" type="button" id="clearFilter">回到首頁</button>
         </div>`;
       results.querySelector('#clearFilter')?.addEventListener('click', () => {
-        state.q = ''; state.category = 'all';
+        state.q = ''; state.category = null;
         main.querySelector('#searchInput').value = '';
         syncChips(); renderResults();
       });
       return;
     }
-    const popular = cat.drawings.filter(d => d.popular);
-    const latest = [...cat.drawings].sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || '')).slice(0, 4);
+    const popular = cat.drawings.filter(d => d.popular).slice(0, 10);
+    const latest = [...cat.drawings].sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || '')).slice(0, 10);
     results.innerHTML = `
       <section class="section" aria-labelledby="popTitle">
         <div class="section-head"><span class="badge-emoji" aria-hidden="true">🔥</span><h2 id="popTitle">熱門圖案</h2></div>
@@ -107,7 +114,8 @@ export async function renderHome(main) {
   main.querySelector('.chips').addEventListener('click', e => {
     const chip = e.target.closest('.chip');
     if (!chip) return;
-    state.category = chip.dataset.cat;
+    // 再點一次已選的分類就回到首頁預設
+    state.category = state.category === chip.dataset.cat ? null : chip.dataset.cat;
     syncChips();
     renderResults();
   });

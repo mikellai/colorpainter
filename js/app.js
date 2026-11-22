@@ -1,4 +1,4 @@
-import { renderHome } from './views/home.js';
+import { renderHome, resetHomeFilters } from './views/home.js';
 import { renderWorks, cleanupWorks } from './views/works.js';
 import { renderPaint } from './views/paint.js';
 import { initMotionToggle, toast } from './ui.js';
@@ -58,4 +58,15 @@ async function route(e) {
 }
 
 window.addEventListener('hashchange', route);
+
+// 點左上角 logo：一律回到首頁預設畫面（清掉分類與搜尋）
+document.querySelector('.brand').addEventListener('click', e => {
+  resetHomeFilters();
+  if (parse(location.hash).page === 'home') {
+    // 已在首頁時網址不會變、不會觸發 hashchange，直接重繪
+    e.preventDefault();
+    if (location.hash !== '#/') history.replaceState(null, '', '#/');
+    route();
+  }
+});
 route();

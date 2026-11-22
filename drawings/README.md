@@ -45,8 +45,8 @@ drawings/
 | `lineArt` | 塗色用的線稿路徑 |
 | `difficulty` | `easy`（簡單）、`medium`（中等）、`hard`（較難） |
 | `tags` | 搜尋關鍵字（選填） |
-| `popular` | `true` 時出現在「熱門圖案」 |
-| `addedAt` | 加入日期，「最新圖案」依這個欄位排序，顯示最新 4 張 |
+| `popular` | `true` 時出現在「熱門圖案」（最多顯示 10 張） |
+| `addedAt` | 加入日期，「最新圖案」依這個欄位排序，顯示最新 10 張 |
 
 ## 刪除一張圖
 

@@ -204,7 +204,7 @@
         "貓熊",
         "竹子"
       ],
-      "popular": false,
+      "popular": true,
       "addedAt": "2026-11-18"
     },
     {
@@ -1266,7 +1266,7 @@
         "恐龍蛋",
         "彩蛋"
       ],
-      "popular": false,
+      "popular": true,
       "addedAt": "2026-11-15"
     },
     {
