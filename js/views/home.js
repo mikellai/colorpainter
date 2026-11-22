@@ -80,7 +80,7 @@ export async function renderHome(main) {
         <div class="empty">
           <div class="mascot">${mascotSVG('wow')}</div>
           <p>找不到耶，換個字試試看！</p>
-          <button class="btn btn-primary" type="button" id="clearFilter">看全部圖案</button>
+          <button class="btn btn-primary" type="button" id="clearFilter">回到首頁</button>
         </div>`;
       results.querySelector('#clearFilter')?.addEventListener('click', () => {
         state.q = ''; state.category = 'all';
@@ -99,11 +99,6 @@ export async function renderHome(main) {
       <section class="section" aria-labelledby="newTitle">
         <div class="section-head"><span class="badge-emoji" aria-hidden="true">🆕</span><h2 id="newTitle">最新圖案</h2></div>
         <div class="grid">${latest.map(drawingCard).join('')}</div>
-      </section>
-      <section class="section" aria-labelledby="allTitle">
-        <div class="section-head"><span class="badge-emoji" aria-hidden="true">📚</span><h2 id="allTitle">全部圖案</h2>
-          <span class="result-count">共 ${cat.drawings.length} 張</span></div>
-        <div class="grid">${cat.drawings.map(drawingCard).join('')}</div>
       </section>`;
   };
 
