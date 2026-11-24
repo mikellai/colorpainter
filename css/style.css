@@ -445,8 +445,6 @@ main { position: relative; z-index: 1; outline: none; }
   background: var(--bg); border-radius: 16px;
 }
 .size-preview span { border-radius: 50%; background: var(--ink); display: block; }
-.size-presets { display: flex; gap: 8px; margin-top: 8px; }
-.size-presets .btn { flex: 1; }
 
 .bg-swatches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
 .bg-swatches .swatch { border-radius: 14px; }

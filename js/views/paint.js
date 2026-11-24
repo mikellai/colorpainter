@@ -113,11 +113,6 @@ export async function renderPaint(main, { drawingId, workId }) {
           <input type="range" id="sizeRange" min="4" max="80" step="1" value="${st.size}" aria-label="畫筆粗細">
           <div class="size-preview" aria-hidden="true"><span id="sizeDot"></span></div>
         </div>
-        <div class="size-presets">
-          <button class="btn btn-small" type="button" data-size="8">細</button>
-          <button class="btn btn-small" type="button" data-size="20">中</button>
-          <button class="btn btn-small" type="button" data-size="44">粗</button>
-        </div>
       </section>
 
       <section class="panel" aria-labelledby="bgTitle">
@@ -485,10 +480,6 @@ export async function renderPaint(main, { drawingId, workId }) {
   $('#customColor').addEventListener('input', e => setColor(e.target.value, false));
   $('#customColor').addEventListener('change', e => setColor(e.target.value));
   $('#sizeRange').addEventListener('input', e => setSize(e.target.value));
-  main.querySelector('.size-presets').addEventListener('click', e => {
-    const b = e.target.closest('[data-size]');
-    if (b) setSize(b.dataset.size);
-  });
   main.querySelector('.bg-swatches').addEventListener('click', e => {
     const b = e.target.closest('.swatch[data-bg]');
     if (!b) return;
