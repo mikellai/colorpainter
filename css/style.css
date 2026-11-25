@@ -496,6 +496,11 @@ main { position: relative; z-index: 1; outline: none; }
   .card { padding: 8px; }
   .card-title { font-size: 17px; }
   .chip { min-height: 46px; padding: 6px 14px; font-size: 16px; }
+  /* 手機上讓換行的分類按鈕、區段標題、頁面標題置中 */
+  .chips { justify-content: center; }
+  .section-head { justify-content: center; flex-wrap: wrap; text-align: center; }
+  .page-title { justify-content: center; }
+  .page-desc { text-align: center; }
   .topbar { padding: 6px 6px; gap: 4px; justify-content: space-between; }
   .topbar-group { gap: 4px; }
   .topbar .btn {
