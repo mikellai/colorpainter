@@ -485,8 +485,8 @@ main { position: relative; z-index: 1; outline: none; }
   .hero h1 { font-size: 26px; }
   .featured-img { max-width: 170px; }
   .featured-name { font-size: 19px; margin-bottom: 8px; }
-  .nav-link, .nav-toggle { min-height: 44px; padding: 6px 12px; font-size: 15px; }
-  .nav-toggle-text { display: none; }
+  .nav-link, .nav-toggle { min-height: 44px; padding: 6px 10px; font-size: 15px; gap: 4px; white-space: nowrap; }
+  .nav-toggle { font-size: 14px; }
   .hero { grid-template-columns: minmax(0, 1fr); padding: 18px 26px; gap: 18px; }
   /* 手機上收窄對話框、搜尋框、推薦圖卡，不要貼滿整張白卡 */
   .hero > * { width: 100%; max-width: 320px; min-width: 0; justify-self: center; }
@@ -522,6 +522,13 @@ main { position: relative; z-index: 1; outline: none; }
   .swatches { grid-template-columns: repeat(6, 1fr); gap: 8px; }
   .swatch { min-width: 0; }
   .work-actions .btn { font-size: 15px; padding: 6px 8px; }
+}
+
+/* 很窄的手機：選單三顆按鈕（含「動畫：開」文字）仍要放得下 */
+@media (max-width: 360px) {
+  .site-nav { gap: 6px; }
+  .nav-link, .nav-toggle { padding: 6px 8px; font-size: 14px; }
+  .nav-toggle { font-size: 13px; }
 }
 
 /* ===== 對話框 ===== */
